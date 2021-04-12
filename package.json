@@ -7,10 +7,10 @@
   "author": "mamoe",
   "license": "AGPL-3.0",
   "devDependencies": {
-    "@vuepress/plugin-medium-zoom": "^1.8.0",
-    "@vuepress/plugin-nprogress": "^1.8.0",
-    "@vuepress/plugin-pwa": "^1.8.0",
-    "vuepress": "^1.8.0",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "vuepress": "^1.8.2",
     "vuepress-theme-antdocs": "^1.2.2"
   },
   "scripts": {
