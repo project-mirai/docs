@@ -1,0 +1,5 @@
+/node_modules
+/docs
+/docs1
+/src/locations.js
+shell*.sh
