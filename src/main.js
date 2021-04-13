@@ -16,7 +16,6 @@ let logCommandExecute = (function () {
     let sec = [
         config.deploy.GH_TOKEN(),
     ];
-    console.log("secs", sec);
     return function (prefix, args) {
         var resp = String(Array.prototype.join.call(args, ' '));
         for (const s of sec) {
@@ -76,7 +75,7 @@ function systemNoError() {
 }
 
 function repoLoc(ghRepo) {
-    return "git@github.com:" + ghRepo + ".git";
+    return "https://github.com/" + ghRepo + ".git";
 }
 
 systemNoError("mkdir docs");
