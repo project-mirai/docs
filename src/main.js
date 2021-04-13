@@ -204,6 +204,13 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     }
     gsys('git', 'fetch', '--all');
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
+    try {
+        gsys('git', 'branch', 'gh-pages');
+    } catch (ignore) { }
+    try {
+        gsys('git', 'checkout', '--force', 'gh-pages');
+    } catch (ignore) { }
+    gsys('git', 'checkout', '--force', 'origin/gh-pages');
     gsys('rm', '-rf', '*');
     gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
     gsysHidden('git', 'rm', '--cache', '-r', '.');
