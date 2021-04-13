@@ -199,9 +199,9 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
         gsys('git', 'init');
         gsys('git', 'remote', 'add', 'origin', 'git@github.com:project-mirai/docs.git');
     }
-    if (config.deploy.commiter.setup) {
-        gsys('git', 'config', '--local', 'user.name', config.deploy.commiter.name());
-        gsys('git', 'config', '--local', 'user.email', config.deploy.commiter.email());
+    if (config.deploy.committer.setup) {
+        gsys('git', 'config', '--local', 'user.name', config.deploy.committer.name());
+        gsys('git', 'config', '--local', 'user.email', config.deploy.committer.email());
     }
     gsys('git', 'fetch', '--all');
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
