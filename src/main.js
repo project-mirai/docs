@@ -164,16 +164,21 @@ var updateToDate = (() => {
      * @param {string} s2 
      */
     function comp(s1, s2) {
-        return s1.localeCompare(s2);
+        return s1.localeCompare(s2, 'en-US');
     }
     latest.sort(comp);
     rebuilt.sort(comp);
 
-    let latestStr = latest.join('\n');
-    let rebuiltStr = rebuilt.join('\n');
+    let latestStr = latest.join('\n').trim();
+    let rebuiltStr = rebuilt.join('\n').trim();
     rebuiltStr__ = rebuiltStr + '\n';
     if (!(realUpdateToDate = (latestStr == rebuiltStr))) {
         fs.writeFileSync('files-sha1.txt', rebuiltStr__);
+        console.log(" ==== OLD ====");
+        console.log(latestStr);
+        console.log(" ==== NEW ====");
+        console.log(rebuiltStr);
+        console.log(" ====     ====");
         return false;
     }
     return true;
