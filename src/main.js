@@ -70,7 +70,6 @@ var postCalls = [];
 
 let vueConf = require('./vuepress-conf');
 let navs = require('./nav');
-const { catchClause } = require('babel-types');
 
 function addNav(loc, navx) {
     function patch(nav) {
