@@ -1,6 +1,7 @@
 let config = require('./config.js');
 let child_process = require('child_process');
 let repositories = require('./repositories');
+let https = require('https');
 
 let fs = require('fs');
 console.log("Config:", config);
@@ -9,6 +10,21 @@ var repo_locations = {};
 try {
     repo_locations = require('./locations');
 } catch (ignore) { }
+
+let logCommandExecute = (function () {
+    if (!config.verbose.command) return () => { };
+    let sec = [
+        config.deploy.GH_TOKEN(),
+    ];
+    console.log("secs", sec);
+    return function (prefix, args) {
+        var resp = String(Array.prototype.join.call(args, ' '));
+        for (const s of sec) {
+            resp = resp.replace(s.trim(), "****");
+        }
+        console.log(prefix + resp);
+    }
+})();
 
 /**
  * @type {import('./types.js').Doc.Utils}
@@ -36,9 +52,7 @@ let utils = {
 };
 
 function system(cmd) {
-    if (config.verbose.command) {
-        console.log("[SYSTEM] Executing " + Array.prototype.join.call(arguments, ' '));
-    }
+    logCommandExecute("[SYSTEM] Executing ", arguments);
     if (arguments.length > 1) {
         child_process.spawnSync(cmd,
             Array.prototype.slice.call(arguments, 1),
@@ -121,6 +135,15 @@ for (const repo of repositories) {
 utils.runInShell("mkdir docs/.vuepress");
 fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf));
 
+function sha1(content) {
+    var crypto = require('crypto')
+    var shasum = crypto.createHash('sha1');
+    shasum.update(content);
+    return shasum.digest('hex');
+}
+
+var rebuiltStr__ = undefined;
+var realUpdateToDate = false;
 var updateToDate = (() => {
     if (!config.check_update_to_date) {
         return false;
@@ -149,8 +172,9 @@ var updateToDate = (() => {
 
     let latestStr = latest.join('\n');
     let rebuiltStr = rebuilt.join('\n');
-    if (latestStr != rebuiltStr) {
-        fs.writeFileSync('files-sha1.txt', rebuiltStr + '\n');
+    rebuiltStr__ = rebuiltStr + '\n';
+    if (!(realUpdateToDate = (latestStr == rebuiltStr))) {
+        fs.writeFileSync('files-sha1.txt', rebuiltStr__);
         return false;
     }
     return true;
@@ -171,9 +195,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
         system("mkdir gh-pages-repo");
     }
     function gsys(cmd) {
-        if (config.verbose.command) {
-            console.log("[SYSTEM] [DEPLOY] Executing " + Array.prototype.join.call(arguments, ' '));
-        }
+        logCommandExecute("[SYSTEM] [DEPLOY] Executing ", arguments);
         child_process.spawnSync(cmd,
             Array.prototype.slice.call(arguments, 1),
             {
@@ -183,9 +205,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
         );
     }
     function gsysHidden(cmd) {
-        if (config.verbose.command) {
-            console.log("[SYSTEM] [DEPLOY] Executing " + Array.prototype.join.call(arguments, ' '));
-        }
+        logCommandExecute("[SYSTEM] [DEPLOY] Executing ", arguments);
         child_process.spawnSync(cmd,
             Array.prototype.slice.call(arguments, 1),
             {
@@ -202,6 +222,9 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
         gsys('git', 'config', '--local', 'user.name', config.deploy.committer.name());
         gsys('git', 'config', '--local', 'user.email', config.deploy.committer.email());
     }
+    try {
+        gsys('git', 'remote', 'remove', 'token');
+    } catch (e) { }
     gsys('git', 'fetch', '--all');
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
     try {
@@ -217,7 +240,8 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     utils.cp('docs/.vuepress/dist', 'gh-pages-repo');
     gsys('git', 'add', '.');
     if (config.deploy.auto_commit) {
-        gsys('git', 'commit', '-m', "VuePress rebuilt " + new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+        let commit_msg = "VuePress rebuilt " + new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' });
+        gsys('git', 'commit', '-m', commit_msg);
         if (config.deploy.run_publish) {
             if (config.deploy.token_publish) {
                 let remote = "https://x-access-token:" + config.deploy.GH_TOKEN() + "@github.com/project-mirai/docs.git"
@@ -229,6 +253,42 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
                 gsys('git', 'remote', 'remove', 'token');
             } else {
                 gsys('git', 'push', 'origin', 'gh-pages');
+            }
+            if (rebuiltStr__ != undefined && ((!realUpdateToDate) || config.deploy.ignore_sha1_update_to_date)) {
+                console.log('Updating files-sha1.txt');
+                let tmpFile = 'tmp' + Math.random() + Math.random() + Math.random() + ".txt";
+                utils.runInShell('curl https://api.github.com/repos/project-mirai/docs/contents/files-sha1.txt?ref=main -o ' + tmpFile);
+                let statusDataSha = JSON.parse(fs.readFileSync(tmpFile).toString('utf-8')).sha;
+                system('rm', tmpFile);
+                console.log(statusDataSha);
+                let req = https.request({
+                    hostname: 'api.github.com',
+                    path: '/repos/project-mirai/docs/contents/files-sha1.txt',
+                    port: 443,
+                    method: 'PUT',
+                    headers: {
+                        'User-Agent': 'NodeJs/10',
+                        'Content-Type': 'application/vnd.github.v3+json',
+                        'Authorization': 'token ' + config.deploy.GH_TOKEN()
+                    }
+                }, res => {
+                    console.log(`statusCode: ${res.statusCode}`)
+
+                    res.on('data', d => {
+                        process.stdout.write(d);
+                        process.stdout.write('\n');
+                    })
+                });
+                req.on('error', error => {
+                    console.error(error)
+                });
+                req.write(JSON.stringify({
+                    message: commit_msg,
+                    content: Buffer.from(rebuiltStr__, 'utf-8').toString('base64'),
+                    sha: statusDataSha,
+                    branch: 'main',
+                }));
+                req.end();
             }
         }
     }

@@ -6,13 +6,14 @@ let conf = module.exports = {
         enable: true,
         GH_TOKEN: () => { return process.env.GH_TOKEN; },
         ignore_update_to_date: false,
+        ignore_sha1_update_to_date: false,
         auto_commit: true,
         token_publish: true,
         run_publish: true,
         committer: {
             setup: true,
-            name: () => { return process.env.COMMITER_NAME; },
-            email: () => { return process.env.COMMITER_EMAIL; },
+            name: () => { return 'mamoebot'; },
+            email: () => { return 'mamoebot@noreply.github.com'; },
         },
     },
     verbose: {
