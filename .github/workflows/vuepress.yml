@@ -1,0 +1,39 @@
+name: Auto Update
+
+on:
+  schedule:
+  - cron: "0 2 * * 0-6"
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - '.github/workflows/vuepress.yml'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 15.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15.x
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Cache Packages
+        id: yarn-cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: Build VuePress
+        run: node src/main.js
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
