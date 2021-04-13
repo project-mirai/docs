@@ -1,9 +1,9 @@
 let config = require('./config.js');
-let process = require('child_process');
+let child_process = require('child_process');
 let repositories = require('./repositories');
 
 let fs = require('fs');
-console.log(config);
+console.log("Config:", config);
 
 var repo_locations = {};
 try {
@@ -17,7 +17,11 @@ let utils = {
     system: system,
     systemNoError: systemNoError,
     cp: function (f, t) {
-        system('cp', '-r', '-v', f, '-T', t);
+        let cmdA = ['cp', '-r', f, '-T', t];
+        if (config.verbose.cp) {
+            cmdA.splice(1, 0, '-v');
+        }
+        system.apply(this, cmdA);
     },
     runInShell: function (t) {
         console.log("[SYSTEM] Executing shell " + t);
@@ -32,9 +36,11 @@ let utils = {
 };
 
 function system(cmd) {
-    console.log("[SYSTEM] Executing " + Array.prototype.join.call(arguments, ' '));
+    if (config.verbose.command) {
+        console.log("[SYSTEM] Executing " + Array.prototype.join.call(arguments, ' '));
+    }
     if (arguments.length > 1) {
-        process.spawnSync(cmd,
+        child_process.spawnSync(cmd,
             Array.prototype.slice.call(arguments, 1),
             {
                 stdio: "inherit"
@@ -42,7 +48,7 @@ function system(cmd) {
         );
         return;
     }
-    process.execSync(cmd, {
+    child_process.execSync(cmd, {
         stdio: "inherit"
     });
 }
@@ -64,6 +70,7 @@ var postCalls = [];
 
 let vueConf = require('./vuepress-conf');
 let navs = require('./nav');
+const { catchClause } = require('babel-types');
 
 function addNav(loc, navx) {
     function patch(nav) {
@@ -111,13 +118,106 @@ for (const repo of repositories) {
     addNav(repo[3], navs[repo[0]]);
 }
 
-system('yarn install');
 
 utils.runInShell("mkdir docs/.vuepress");
 fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf));
 
-system('yarn docs:build');
+var updateToDate = (() => {
+    if (!config.check_update_to_date) {
+        return false;
+    }
+
+    utils.system("sh", "cacl-sha1.sh");
+    var latest = fs.readFileSync("files-sha1.txt").toString('utf-8')
+        .trim()
+        .replace('\r\n', '\n')
+        .replace('\r', '\n')
+        .split('\n');
+    var rebuilt = fs.readFileSync("files-sha1-rebuilt.txt").toString('utf-8')
+        .trim()
+        .replace('\r\n', '\n')
+        .replace('\r', '\n')
+        .split('\n');
+    /**
+     * @param {string} s1 
+     * @param {string} s2 
+     */
+    function comp(s1, s2) {
+        return s1.localeCompare(s2);
+    }
+    latest.sort(comp);
+    rebuilt.sort(comp);
+
+    let latestStr = latest.join('\n');
+    let rebuiltStr = rebuilt.join('\n');
+    if (latestStr != rebuiltStr) {
+        fs.writeFileSync('files-sha1.txt', rebuiltStr + '\n');
+        return false;
+    }
+    return true;
+})();
+if (updateToDate) {
+    console.log("Update to date.");
+} else if (config.run_build) {
+    system('yarn install');
+    system('yarn docs:build');
+}
 
 for (const postCall of postCalls) {
     postCall();
+}
+
+if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDate)) {
+    if (!fs.existsSync("gh-pages-repo")) {
+        system("mkdir gh-pages-repo");
+    }
+    function gsys(cmd) {
+        if (config.verbose.command) {
+            console.log("[SYSTEM] [DEPLOY] Executing " + Array.prototype.join.call(arguments, ' '));
+        }
+        child_process.spawnSync(cmd,
+            Array.prototype.slice.call(arguments, 1),
+            {
+                stdio: "inherit",
+                cwd: 'gh-pages-repo',
+            }
+        );
+    }
+    function gsysHidden(cmd) {
+        if (config.verbose.command) {
+            console.log("[SYSTEM] [DEPLOY] Executing " + Array.prototype.join.call(arguments, ' '));
+        }
+        child_process.spawnSync(cmd,
+            Array.prototype.slice.call(arguments, 1),
+            {
+                stdio: "ignore",
+                cwd: 'gh-pages-repo',
+            }
+        );
+    }
+    if (!fs.existsSync('gh-pages-repo/.git')) {
+        gsys('git', 'init');
+        gsys('git', 'remote', 'add', 'origin', 'git@github.com:project-mirai/docs.git');
+    }
+    gsys('git', 'fetch', '--all');
+    gsys('git', 'checkout', '--force', 'origin/gh-pages');
+    gsys('rm', '-rf', '*');
+    gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
+    gsysHidden('git', 'rm', '--cache', '-r', '.');
+    utils.cp('docs/.vuepress/dist', 'gh-pages-repo');
+    gsys('git', 'add', '.');
+    if (config.deploy.auto_commit) {
+        gsys('git', 'commit', '-m', "VuePress rebuilt " + new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+        if (config.deploy.token_publish) {
+            let remote = "https://x-access-token:" + config.deploy.GH_TOKEN() + "@github.com/project-mirai/docs.git"
+            try {
+                gsys('git', 'remote', 'add', 'token', remote);
+            } catch (e) { }
+            gsys('git', 'remote', 'set-url', 'token', remote);
+            gsys('git', 'push', 'token', 'gh-pages');
+            gsys('git', 'remote', 'remove', 'token');
+        } else {
+            gsys('git', 'push', 'origin', 'gh-pages');
+        }
+    }
 }

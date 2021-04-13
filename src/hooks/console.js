@@ -9,6 +9,10 @@ function hook(utils, repoInfo, postCall) {
     utils.cp(repoInfo.docLocation + '/.ConfiguringProjects_images', 'node_modules/.ConfiguringProjects_images');
     utils.runInShell("mkdir -p docs/tools/intellij-plugin/resources");
     utils.cp(repoInfo.location + "/tools/intellij-plugin/resources", 'docs/tools/intellij-plugin/resources');
+    utils.system('rm -rf docs/tools/intellij-plugin/resources/inspectionDescriptions');
+    utils.system('rm -rf docs/tools/intellij-plugin/resources/intentionDescriptions');
+    utils.system('rm -rf docs/tools/intellij-plugin/resources/messages');
+    utils.system('rm -rf docs/tools/intellij-plugin/resources/META-INF');
 
     utils.runInShell(
         "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +

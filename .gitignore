@@ -2,4 +2,7 @@
 /docs
 /docs1
 /src/locations.js
+/src/config-local.js
 shell*.sh
+/files-sha1-rebuilt.txt
+/gh-pages-repo
