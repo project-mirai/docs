@@ -8,6 +8,12 @@ let conf = module.exports = {
         ignore_update_to_date: false,
         auto_commit: true,
         token_publish: true,
+        run_publish: true,
+        committer: {
+            setup: true,
+            name: () => { return process.env.COMMITER_NAME; },
+            email: () => { return process.env.COMMITER_EMAIL; },
+        },
     },
     verbose: {
         cp: true,

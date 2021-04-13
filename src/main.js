@@ -199,6 +199,10 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
         gsys('git', 'init');
         gsys('git', 'remote', 'add', 'origin', 'git@github.com:project-mirai/docs.git');
     }
+    if (config.deploy.commiter.setup) {
+        gsys('git', 'config', '--local', 'user.name', config.deploy.commiter.name());
+        gsys('git', 'config', '--local', 'user.email', config.deploy.commiter.email());
+    }
     gsys('git', 'fetch', '--all');
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
     gsys('rm', '-rf', '*');
@@ -208,16 +212,18 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     gsys('git', 'add', '.');
     if (config.deploy.auto_commit) {
         gsys('git', 'commit', '-m', "VuePress rebuilt " + new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
-        if (config.deploy.token_publish) {
-            let remote = "https://x-access-token:" + config.deploy.GH_TOKEN() + "@github.com/project-mirai/docs.git"
-            try {
-                gsys('git', 'remote', 'add', 'token', remote);
-            } catch (e) { }
-            gsys('git', 'remote', 'set-url', 'token', remote);
-            gsys('git', 'push', 'token', 'gh-pages');
-            gsys('git', 'remote', 'remove', 'token');
-        } else {
-            gsys('git', 'push', 'origin', 'gh-pages');
+        if (config.deploy.run_publish) {
+            if (config.deploy.token_publish) {
+                let remote = "https://x-access-token:" + config.deploy.GH_TOKEN() + "@github.com/project-mirai/docs.git"
+                try {
+                    gsys('git', 'remote', 'add', 'token', remote);
+                } catch (e) { }
+                gsys('git', 'remote', 'set-url', 'token', remote);
+                gsys('git', 'push', 'token', 'gh-pages');
+                gsys('git', 'remote', 'remove', 'token');
+            } else {
+                gsys('git', 'push', 'origin', 'gh-pages');
+            }
         }
     }
 }
