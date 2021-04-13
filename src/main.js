@@ -75,6 +75,9 @@ function systemNoError() {
 }
 
 function repoLoc(ghRepo) {
+    if (config.use_ssh_clone) {
+        return "git@github.com:" + ghRepo + ".git";
+    }
     return "https://github.com/" + ghRepo + ".git";
 }
 
@@ -220,7 +223,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     }
     if (!fs.existsSync('gh-pages-repo/.git')) {
         gsys('git', 'init');
-        gsys('git', 'remote', 'add', 'origin', 'git@github.com:project-mirai/docs.git');
+        gsys('git', 'remote', 'add', 'origin', repoLoc('project-mirai/docs'));
     }
     if (config.deploy.committer.setup) {
         gsys('git', 'config', '--local', 'user.name', config.deploy.committer.name());
@@ -253,10 +256,10 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
                     gsys('git', 'remote', 'add', 'token', remote);
                 } catch (e) { }
                 gsys('git', 'remote', 'set-url', 'token', remote);
-                gsys('git', 'push', 'token', 'gh-pages');
+                gsys('git', 'push', 'token', 'HEAD:gh-pages');
                 gsys('git', 'remote', 'remove', 'token');
             } else {
-                gsys('git', 'push', 'origin', 'gh-pages');
+                gsys('git', 'push', 'origin', 'HEAD:gh-pages');
             }
             if (rebuiltStr__ != undefined && ((!realUpdateToDate) || config.deploy.ignore_sha1_update_to_date)) {
                 console.log('Updating files-sha1.txt');

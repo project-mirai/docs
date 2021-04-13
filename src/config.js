@@ -2,6 +2,7 @@ let conf = module.exports = {
     update: true,
     check_update_to_date: true,
     run_build: true,
+    use_ssh_clone: false,
     deploy: {
         enable: true,
         GH_TOKEN: () => { return process.env.GH_TOKEN; },
