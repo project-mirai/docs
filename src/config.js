@@ -14,7 +14,7 @@ let conf = module.exports = {
         committer: {
             setup: true,
             name: () => { return 'mamoebot'; },
-            email: () => { return 'mamoebot@noreply.github.com'; },
+            email: () => { return 'mamoebot@users.noreply.github.com'; },
         },
     },
     verbose: {
