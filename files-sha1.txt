@@ -41,6 +41,7 @@
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
 ad287c8065525a8ae2de9b8c5d8eace949e20130  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft
 b02ef8d2ea7e080aa825ece8447ed29621479c05  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.ft
+b3767d2662a8920a1da69df5fc6d125f72113f30  docs/ConfiguringProjects.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 b768a2abb0d1dfba9b11a7765f4f5c2cd5dbb621  docs/Messages.md
 b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
@@ -51,7 +52,6 @@ d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 d9bc50374f637b9a7ccb706a02343c1ec2136478  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.ft
 e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-edb929d0d046a8996c08f662bf682ec4cc176ab2  docs/ConfiguringProjects.md
 f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
