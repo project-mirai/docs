@@ -162,12 +162,20 @@ var updateToDate = (() => {
         .replace('\r\n', '\n')
         .replace('\r', '\n')
         .split('\n');
+
+    /**
+     * @param {string} s 
+     */
+    function getPath(s) {
+        let i = s.indexOf(' ');
+        return s.substr(i + 1).trim();
+    }
     /**
      * @param {string} s1 
      * @param {string} s2 
      */
     function comp(s1, s2) {
-        return s1.localeCompare(s2, 'en-US');
+        return getPath(s1).localeCompare(getPath(s2), 'en-US');
     }
     latest.sort(comp);
     rebuilt.sort(comp);
