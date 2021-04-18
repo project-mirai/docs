@@ -34,4 +34,11 @@ module.exports = {
             },
         ],
     ],
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@root': 'docs'
+            }
+        }
+    },
 };

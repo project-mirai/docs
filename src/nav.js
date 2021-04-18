@@ -1,9 +1,9 @@
 module.exports = {
     'mamoe/mirai': {
         text: "mirai-core",
-        link: "/index.html",
+        link: "/",
         items: [
-            { text: "Index", link: "/index.html" },
+            { text: "Index", link: "/" },
             { text: "Mirai 生态概览", link: "/mirai-ecology.html" },
             { text: "从 1.x 迁移", link: "/MigrationFrom1x.html" },
             {
@@ -18,9 +18,9 @@ module.exports = {
     },
     'mamoe/mirai-console': {
         text: "mirai-console",
-        link: "/index.html",
+        link: "/",
         items: [
-            { text: "Index", link: "/index.html" },
+            { text: "Index", link: "/" },
             { text: "配置项目", link: "/ConfiguringProjects.html" },
             { text: "启动 Console", link: "/Run.html" },
             {
@@ -42,5 +42,9 @@ module.exports = {
                 ]
             },
         ]
+    },
+    'project-mirai/mirai-login-solver-selenium': {
+        text: 'mirai-login-solver-selenium',
+        link: '/mirai-login-solver-selenium/'
     },
 };

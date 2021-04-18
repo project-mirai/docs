@@ -111,7 +111,9 @@ for (const repo of repositories) {
         system("git", "clone", repoLoc(repo[0]), repo_loc, '--branch', repo[1]);
     }
     // console.log("Loc of repo", repo[0], "is", repo_loc);
-    utils.cp(repo_loc + '/' + repo[2], 'docs/' + repo[3]);
+    if (repo[2] != undefined) {
+        utils.cp(repo_loc + '/' + repo[2], 'docs/' + repo[3]);
+    }
     var patch = undefined;
     try {
         patch = require('./hooks/' + repo[4]);
@@ -134,8 +136,21 @@ for (const repo of repositories) {
 }
 
 
+let pathModule = require('path');
+vueConf.configureWebpack.resolve.alias['@root'] =
+    pathModule.dirname(pathModule.dirname(require.main.filename)) + '/docs';
 utils.runInShell("mkdir docs/.vuepress");
 fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf));
+
+
+utils.runInShell(
+    'find docs -type f -name "*.md" -exec ' +
+    'sed -i -r "s+http://img.mamoe.net/2020/02/16/a759783b42f72.png+~@root/mirai.png+g" {} \\;'
+);
+utils.runInShell(
+    'find docs -type f -name "*.md" -exec ' +
+    'sed -i -r "s+http://img.mamoe.net/2020/02/16/c4aece361224d.png+~@root/mirai.svg+g" {} \\;'
+);
 
 function sha1(content) {
     var crypto = require('crypto')
