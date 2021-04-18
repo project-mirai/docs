@@ -1,57 +1,61 @@
-087ce0c5611fb703d8950a91a423e7a41f2f2179  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin settings.gradle.kts.html
-0c78d7a1aae4cdf52157d04e18510d2b8c371f46  docs/ConfiguringProjects.md
-0d6944c55c938be560ebba08dcc5dd9d7b0f564d  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Gradle gradle.properties.ft
-0f2ff104d2b89660d7f291e4da285dd6ea988665  docs/UserManual.md
-132fc5c23c2cd85ed1797e403e88b1cdc7012939  docs/Events.md
-17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
-194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
-1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/.images/PluginMainServiceNotConfigured.png
-2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-22bbc5fcb6302bb7af2ff1618461580b5ae764b7  docs/console/Commands.md
-22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
-242023bb91e2d4e10b3799f69a0d99955259afa9  docs/console/ConfiguringProjects.md
-2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
-2c92d9014b7dfed7398b0c83fadb9cba218c5abe  docs/console/BuiltInCommands.md
-3fc6e36f40672e21c1f9d9579aa7eaf4b11fb9de  docs/README.md
-4376c5daa73f9e1a844c64d036c392f278379fdd  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.html
-44a0be2dca5728b91c415b899b9407c67b842010  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.html
-44a0be2dca5728b91c415b899b9407c67b842010  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.html
-4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
-526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
-5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
-5db53e213e87e921dae2af05e27ddce8c713826e  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft.back
-5f5dbe57217f67f820f8faab8df38be96868d56c  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.html
-62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
-681caefa3212a4721a3f24ad5c05b159a0956340  docs/console/Run.md
-6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
-6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
-73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
-75be5da6fe422163e5bac25f183efdedf5216b7f  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.ft
-860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
-87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
-8cbd327baa50be551048406222d50800ba2b26aa  docs/Contacts.md
-919d7a0cb77e31346a5376c95ccf06517cf3a2af  docs/console/Permissions.md
-9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
-9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
-9475f863943dd8394cb3ddd8533be8700d88609f  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.html
-9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
-9f55966cfa664190d767343ab77f1b5daa3136d0  docs/console/PluginData.md
-9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
-a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
-ad287c8065525a8ae2de9b8c5d8eace949e20130  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft
-b02ef8d2ea7e080aa825ece8447ed29621479c05  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.ft
-b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
-b768a2abb0d1dfba9b11a7765f4f5c2cd5dbb621  docs/Messages.md
-b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
-b9216dff1d5696904f61fb6decbf218d40f07ec0  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.ft
-bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin settings.gradle.kts.ft
-cc7352b898fc542e6e23c85ac45e7d2a111776d8  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Gradle gradle.properties.html
-d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
-d9bc50374f637b9a7ccb706a02343c1ec2136478  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.ft
-e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
+17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
+860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 f81430986ab6f9bb1788f53af34f4128f38fbcf4  docs/Bots.md
+0c78d7a1aae4cdf52157d04e18510d2b8c371f46  docs/ConfiguringProjects.md
+194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
+9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
+a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
+1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/.images/PluginMainServiceNotConfigured.png
+87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
+2c92d9014b7dfed7398b0c83fadb9cba218c5abe  docs/console/BuiltInCommands.md
+22bbc5fcb6302bb7af2ff1618461580b5ae764b7  docs/console/Commands.md
+242023bb91e2d4e10b3799f69a0d99955259afa9  docs/console/ConfiguringProjects.md
+526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
+6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
+22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
+919d7a0cb77e31346a5376c95ccf06517cf3a2af  docs/console/Permissions.md
+9f55966cfa664190d767343ab77f1b5daa3136d0  docs/console/PluginData.md
+62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
+9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
+681caefa3212a4721a3f24ad5c05b159a0956340  docs/console/Run.md
+8cbd327baa50be551048406222d50800ba2b26aa  docs/Contacts.md
+f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
+132fc5c23c2cd85ed1797e403e88b1cdc7012939  docs/Events.md
+6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
+9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
+2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
+b768a2abb0d1dfba9b11a7765f4f5c2cd5dbb621  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
+e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
+9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
+5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
+c71bebc5cf7c4a012409f1091208ef1b63945702  docs/mirai-login-solver-selenium/images/img3.png
+b43809515351b81fcda0b4145a96e9501da0a681  docs/mirai-login-solver-selenium/README.md
+b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
+73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
+2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
+3fc6e36f40672e21c1f9d9579aa7eaf4b11fb9de  docs/README.md
+d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
+4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
+b9216dff1d5696904f61fb6decbf218d40f07ec0  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.ft
+5f5dbe57217f67f820f8faab8df38be96868d56c  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.html
+0d6944c55c938be560ebba08dcc5dd9d7b0f564d  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Gradle gradle.properties.ft
+cc7352b898fc542e6e23c85ac45e7d2a111776d8  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Gradle gradle.properties.html
+75be5da6fe422163e5bac25f183efdedf5216b7f  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.ft
+9475f863943dd8394cb3ddd8533be8700d88609f  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.html
+d9bc50374f637b9a7ccb706a02343c1ec2136478  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.ft
+4376c5daa73f9e1a844c64d036c392f278379fdd  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.html
+ad287c8065525a8ae2de9b8c5d8eace949e20130  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft
+5db53e213e87e921dae2af05e27ddce8c713826e  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft.back
+44a0be2dca5728b91c415b899b9407c67b842010  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.html
+b02ef8d2ea7e080aa825ece8447ed29621479c05  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.ft
+44a0be2dca5728b91c415b899b9407c67b842010  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.html
+bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin settings.gradle.kts.ft
+087ce0c5611fb703d8950a91a423e7a41f2f2179  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin settings.gradle.kts.html
+b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
+5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
+9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
+0f2ff104d2b89660d7f291e4da285dd6ea988665  docs/UserManual.md
