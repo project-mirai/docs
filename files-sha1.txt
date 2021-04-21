@@ -33,7 +33,7 @@ e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
 5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
 c71bebc5cf7c4a012409f1091208ef1b63945702  docs/mirai-login-solver-selenium/images/img3.png
-b43809515351b81fcda0b4145a96e9501da0a681  docs/mirai-login-solver-selenium/README.md
+eead92848eeda1da6303bc99e7e2bb216fe74d98  docs/mirai-login-solver-selenium/README.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
