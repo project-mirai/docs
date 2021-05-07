@@ -3,7 +3,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 f81430986ab6f9bb1788f53af34f4128f38fbcf4  docs/Bots.md
-a5e7a9906e6a200ee67b3ee169db60f55c069505  docs/ConfiguringProjects.md
+0609f6b5c5b4682d67a149fa972121e0da2df126  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
