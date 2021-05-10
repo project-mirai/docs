@@ -27,7 +27,7 @@ f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-b768a2abb0d1dfba9b11a7765f4f5c2cd5dbb621  docs/Messages.md
+06a81f0193d3810e9c42b50a5a12d4c02f5ea2c1  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
