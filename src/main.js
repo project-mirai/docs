@@ -266,6 +266,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
     gsys('rm', '-rf', '*');
     gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
+    gsys('git', 'checkout', 'HEAD', '--', 'favicon.ico');
     gsysHidden('git', 'rm', '--cache', '-r', '.');
     utils.cp('docs/.vuepress/dist', 'gh-pages-repo');
     gsys('git', 'add', '.');
