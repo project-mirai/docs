@@ -3,7 +3,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 f81430986ab6f9bb1788f53af34f4128f38fbcf4  docs/Bots.md
-a5e7a9906e6a200ee67b3ee169db60f55c069505  docs/ConfiguringProjects.md
+0609f6b5c5b4682d67a149fa972121e0da2df126  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
@@ -15,7 +15,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
 6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
 22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
-919d7a0cb77e31346a5376c95ccf06517cf3a2af  docs/console/Permissions.md
+33dccda1d0a828868ddba0e8506defadd58801c7  docs/console/Permissions.md
 9f55966cfa664190d767343ab77f1b5daa3136d0  docs/console/PluginData.md
 62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
@@ -27,13 +27,16 @@ f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-b768a2abb0d1dfba9b11a7765f4f5c2cd5dbb621  docs/Messages.md
+06a81f0193d3810e9c42b50a5a12d4c02f5ea2c1  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
 5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
 c71bebc5cf7c4a012409f1091208ef1b63945702  docs/mirai-login-solver-selenium/images/img3.png
-eead92848eeda1da6303bc99e7e2bb216fe74d98  docs/mirai-login-solver-selenium/README.md
+3baa9d92a875e38c3e7538e6fef2aa774b004059  docs/mirai-login-solver-selenium/images/img4.png
+439c3fcff1c5e2cf7d87c3db6887b60268ff6032  docs/mirai-login-solver-selenium/images/img5.png
+d1064ce0fb22a30bfd67db0b45083c6bceaac227  docs/mirai-login-solver-selenium/images/img6.png
+0edf0ca820d725c37150aa97656232b2a17a4fb4  docs/mirai-login-solver-selenium/README.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
