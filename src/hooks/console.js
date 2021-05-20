@@ -19,7 +19,8 @@ function hook(utils, repoInfo, postCall) {
         'sed -i -r "s+\\.\\./+https://github.com/mamoe/mirai-console/tree/master/+g" {} \\;'
     );
     utils.runInShell(
-        'sed -i "s+https://github.com/mamoe/mirai/blob/dev/docs/CoreAPI.md+../CoreAPI.md+g" ' + repoInfo.copiedDocLocation + '/README.md'
+        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
+        'sed -i -r "s+https://github.com/mamoe/mirai/blob/dev/docs/+../+g" {} \\;'
     );
 
     postCall.push(() => {
