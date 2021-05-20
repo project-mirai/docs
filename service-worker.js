@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "93b0548d7ed21fb8a677d542f464eca8"
+    "revision": "a0bf38f79d9128cef53dbecf01d016cf"
   },
   {
     "url": "assets/css/0.styles.f46ac581.css",
@@ -38,16 +38,16 @@ self.__precacheManifest = [
     "revision": "7c79ea3c4208f77aa204907923a53d39"
   },
   {
-    "url": "assets/img/img1.523ba04c.png",
-    "revision": "523ba04c3cd53330296404976c6d4660"
+    "url": "assets/img/img4.595b3088.png",
+    "revision": "595b3088a0ae9a0dfce52b4203783581"
   },
   {
-    "url": "assets/img/img2.02fc09b5.png",
-    "revision": "02fc09b5e0de5482512275fd725dd50c"
+    "url": "assets/img/img5.417d99f5.png",
+    "revision": "417d99f55149aefc7b721f904197b410"
   },
   {
-    "url": "assets/img/img3.58a61018.png",
-    "revision": "58a61018b781c0b78d7ce41619b4301b"
+    "url": "assets/img/img6.c537e515.png",
+    "revision": "c537e515c512c40733f820b04e72faec"
   },
   {
     "url": "assets/img/mirai.a2af7a4d.svg",
@@ -150,8 +150,8 @@ self.__precacheManifest = [
     "revision": "6854c966b423df5b3c860615f863af53"
   },
   {
-    "url": "assets/js/3.7f5a2c84.js",
-    "revision": "9ccb8e09245363ab0d07dd2a538fb867"
+    "url": "assets/js/3.856c0040.js",
+    "revision": "b6228ff2b3ef391578879970b6023f4f"
   },
   {
     "url": "assets/js/30.63095119.js",
@@ -202,124 +202,124 @@ self.__precacheManifest = [
     "revision": "bf6703c62c06be342d0a80ce62bdb442"
   },
   {
-    "url": "assets/js/app.079e73c4.js",
-    "revision": "c78be09a7a1e1e00f3ac2ca8ca66d108"
+    "url": "assets/js/app.4e51d943.js",
+    "revision": "85f32bf5c43281feff9d852f392b5d3e"
   },
   {
     "url": "Bots.html",
-    "revision": "b78673cfe49ced7c38459ca13d4b84e3"
+    "revision": "042bb51100e800c9f2a29a7ac0e47f98"
   },
   {
     "url": "ConfiguringProjects.html",
-    "revision": "1ffe2aaba53122c16c9256957a37622e"
+    "revision": "48d8a7558824ffcdcba7d45d374c4545"
   },
   {
     "url": "console/Appendix.html",
-    "revision": "93751da3e94c2621bd1ccbd211b56c96"
+    "revision": "b78b4c4211d79aef63aeb76af37b839e"
   },
   {
     "url": "console/BuiltInCommands.html",
-    "revision": "8ac85e39c126f614f40c78089a7412b5"
+    "revision": "b13fee8a946562776844d8ee19068f9c"
   },
   {
     "url": "console/Commands.html",
-    "revision": "69b5a5bbb3279c76fa66d714b8cc5d32"
+    "revision": "88033a9ba13ec2b78dbfda3b3a9a1244"
   },
   {
     "url": "console/ConfiguringProjects.html",
-    "revision": "87108794cf4c823c5f995f118396f060"
+    "revision": "bbecb18f35807435cb5bf32e65fe644e"
   },
   {
     "url": "console/Contributing.html",
-    "revision": "7a5c74fbae990ad06754b79a47834473"
+    "revision": "4b2613d7e2ece1380625ada98cfd7404"
   },
   {
     "url": "console/Extensions.html",
-    "revision": "e5e1acffc776eff062eb8aabead8f0b8"
+    "revision": "81b0dc961cbda4386f709bc3863b3975"
   },
   {
     "url": "console/FrontEnd.html",
-    "revision": "9e447df43285ec536db1a2613ef58ce0"
+    "revision": "4e5385546150ae9b1bf956f0b10beb9f"
   },
   {
     "url": "console/index.html",
-    "revision": "ee7b4f02714ba8553aad5b11535c8918"
+    "revision": "5e820e9cc65728c419d57d4fb887a382"
   },
   {
     "url": "console/Permissions.html",
-    "revision": "17e584bc52376f16c48942291a366613"
+    "revision": "d1caba821c4ecc1634f806c5994f3fed"
   },
   {
     "url": "console/PluginData.html",
-    "revision": "f919a833154e6ba806cef724d1e2282b"
+    "revision": "f4e96fcb125f9fdaf9d2507d2452cd2e"
   },
   {
     "url": "console/Plugins.html",
-    "revision": "4299c387befc4596d8c4b0ea1a0af452"
+    "revision": "f1123406b4e02a83dfc52394c50e56ee"
   },
   {
     "url": "console/QA.html",
-    "revision": "92469ff5455f51c59e5905554013679b"
+    "revision": "ca7c5829ab891a448c53e9677bd728fb"
   },
   {
     "url": "console/Run.html",
-    "revision": "22d108270d45cc9efe543a51f6260912"
+    "revision": "11f882034ebc6784652445a9babca18b"
   },
   {
     "url": "Contacts.html",
-    "revision": "2262a615f72a4e0e46fe4d9296ac1423"
+    "revision": "6326ec326e130b865813dfb184d6cf04"
   },
   {
     "url": "CoreAPI.html",
-    "revision": "74a43c3589a87fed45e4f06e96e20a70"
+    "revision": "4f825151b1ed77939f8b9a24c55713ad"
   },
   {
     "url": "Events.html",
-    "revision": "f2693989205640f953adc41f7c0eb508"
+    "revision": "7afb60d7d4ff77c153919a23f7512de1"
   },
   {
     "url": "Evolution.html",
-    "revision": "0262662b99555515dc36de45aa54f415"
+    "revision": "18cbeea50f57d787dc60c008a1676a21"
   },
   {
     "url": "index.html",
-    "revision": "19316b1e20cf943cb42590d256131997"
+    "revision": "3660c152b1c6bb01e378ca5250adca0e"
   },
   {
     "url": "KotlinAndJava.html",
-    "revision": "09bc83e6ea940c8e95efb4a1ca4cc531"
+    "revision": "df1391fa58fdf6b4320de0bfbf5c4f3a"
   },
   {
     "url": "Messages.html",
-    "revision": "960b8264f02bea8d5c7fca92957a3b80"
+    "revision": "ef21500aa1d82154e59bffdfd059733b"
   },
   {
     "url": "MigrationFrom1x.html",
-    "revision": "a04a442386994cdc974f3a1f7179b83a"
+    "revision": "d17c147c364327ce5e83dec6dfbf328e"
   },
   {
     "url": "mirai-ecology.html",
-    "revision": "1a593cd28d139bbf37b31998afc06e5f"
+    "revision": "56bc8ef3e24b82a9e9610b466b396c17"
   },
   {
     "url": "mirai-login-solver-selenium/index.html",
-    "revision": "567159ed5975e93d8b9037052712cf3d"
+    "revision": "f0972d033e14cd19625dac27301d6ee9"
   },
   {
     "url": "Preparations.html",
-    "revision": "8c520cf5f2e6ad52a3a4885c6e96e589"
+    "revision": "e0dc5a3923dedf23f5bb31f779b2a25b"
   },
   {
     "url": "src/Contacts.mermaid.html",
-    "revision": "bcb261c3107ce44d817b2ef0c5cda6cf"
+    "revision": "e591c7fa78253f4a8040b8d276fc3d73"
   },
   {
     "url": "src/Messages.mermaid.html",
-    "revision": "e7e0f7e921d837291c93b71fb773a4b3"
+    "revision": "4e98d48f12eb4559d602af2b2f65d4c1"
   },
   {
     "url": "UserManual.html",
-    "revision": "2719309ac5a594060870a4e902a20df6"
+    "revision": "ae63b86e36288cfda7591743635b7a56"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
