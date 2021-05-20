@@ -11,7 +11,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
 2c92d9014b7dfed7398b0c83fadb9cba218c5abe  docs/console/BuiltInCommands.md
 22bbc5fcb6302bb7af2ff1618461580b5ae764b7  docs/console/Commands.md
-242023bb91e2d4e10b3799f69a0d99955259afa9  docs/console/ConfiguringProjects.md
+455d81d6b3e3f9e49abc1c464cd3ea4e20cb5081  docs/console/ConfiguringProjects.md
 526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
 6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
 22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
@@ -20,7 +20,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
-681caefa3212a4721a3f24ad5c05b159a0956340  docs/console/Run.md
+8231f1b7093d91248eadbe6a3904b6ede1c684f7  docs/console/Run.md
 8cbd327baa50be551048406222d50800ba2b26aa  docs/Contacts.md
 f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
 132fc5c23c2cd85ed1797e403e88b1cdc7012939  docs/Events.md
