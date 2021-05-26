@@ -3,7 +3,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 f81430986ab6f9bb1788f53af34f4128f38fbcf4  docs/Bots.md
-0609f6b5c5b4682d67a149fa972121e0da2df126  docs/ConfiguringProjects.md
+fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
@@ -20,7 +20,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
-8231f1b7093d91248eadbe6a3904b6ede1c684f7  docs/console/Run.md
+5d0fe4efff2a858093ed3d612ef4c6c8912aaf93  docs/console/Run.md
 8cbd327baa50be551048406222d50800ba2b26aa  docs/Contacts.md
 f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
 132fc5c23c2cd85ed1797e403e88b1cdc7012939  docs/Events.md
