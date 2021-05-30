@@ -9,7 +9,7 @@ fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
 1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/.images/PluginMainServiceNotConfigured.png
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
-2c92d9014b7dfed7398b0c83fadb9cba218c5abe  docs/console/BuiltInCommands.md
+4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
 22bbc5fcb6302bb7af2ff1618461580b5ae764b7  docs/console/Commands.md
 455d81d6b3e3f9e49abc1c464cd3ea4e20cb5081  docs/console/ConfiguringProjects.md
 526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
