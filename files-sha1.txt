@@ -2,7 +2,7 @@
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
-f81430986ab6f9bb1788f53af34f4128f38fbcf4  docs/Bots.md
+f1dbbd438107b222a55b258aa7fb569d6dff5ac4  docs/Bots.md
 fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
@@ -21,13 +21,14 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
 5d0fe4efff2a858093ed3d612ef4c6c8912aaf93  docs/console/Run.md
-8cbd327baa50be551048406222d50800ba2b26aa  docs/Contacts.md
+e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
 f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
-132fc5c23c2cd85ed1797e403e88b1cdc7012939  docs/Events.md
+b2aa34efe2f7858c5a83f4864c0fbe86575e5f7d  docs/EventList.md
+edcc1adcf1d1ef6db9f3a010cb16e46ab450f741  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-2f2794f26128be252abbee3a11a76ca199d08592  docs/Messages.md
+4af49be29b068f5c845f414c54318375e6f14bda  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
