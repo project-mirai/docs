@@ -19,7 +19,7 @@ module.exports = {
             },
             {
                 text: "Misc", items: [
-                    { text: 'Mirai - Evolution', link: '/Evlution.html' },
+                    { text: 'Mirai - Evolution', link: '/Evolution.html' },
                     { text: 'Kotlin & Java', link: '/KotlinAndJava.html' },
                 ]
             },
