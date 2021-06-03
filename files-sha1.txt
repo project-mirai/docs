@@ -30,7 +30,7 @@ edcc1adcf1d1ef6db9f3a010cb16e46ab450f741  docs/Events.md
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
 4af49be29b068f5c845f414c54318375e6f14bda  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
-e331300158dc3614015e85fe628a0b9ee28ecb8a  docs/mirai-ecology.md
+19fb8eaa60e5ac6a10f449f0daa019e1e4ee4e5b  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
 5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
 c71bebc5cf7c4a012409f1091208ef1b63945702  docs/mirai-login-solver-selenium/images/img3.png
@@ -40,7 +40,7 @@ d1064ce0fb22a30bfd67db0b45083c6bceaac227  docs/mirai-login-solver-selenium/image
 4ac07220bedce8878ff0180937fad5b579acb2a5  docs/mirai-login-solver-selenium/README.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
-2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
+3eafecb05a6a46489d8b7c81ccebd8a80db52c49  docs/Preparations.md
 9520dfb5afd46457395aa6917557cb14a459a07f  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
@@ -62,4 +62,4 @@ bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/f
 b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
 5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
-0f2ff104d2b89660d7f291e4da285dd6ea988665  docs/UserManual.md
+420e79cb220db9b536ba97c632d122957aa44fa7  docs/UserManual.md
