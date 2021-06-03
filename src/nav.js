@@ -6,12 +6,21 @@ module.exports = {
             { text: "Index", link: "/" },
             { text: "Mirai 生态概览", link: "/mirai-ecology.html" },
             { text: "从 1.x 迁移", link: "/MigrationFrom1x.html" },
+            { text: '用户手册', link: '/UserManual.html' },
+            { text: 'JVM 环境和开发准备工作', link: '/Preparations.html' },
             {
                 text: "CoreAPI", link: "/CoreAPI.html", items: [
+                    { text: "CoreAPI", link: "/CoreAPI.html" },
                     { text: "机器人", link: "/Bots.html" },
                     { text: "联系人", link: "/Contacts.html" },
-                    { text: "事件", link: "/Events.html" },
+                    { text: "事件", link: "/EventList.html" },
                     { text: "消息", link: "/Messages.html" },
+                ]
+            },
+            {
+                text: "Misc", items: [
+                    { text: 'Mirai - Evolution', link: '/Evlution.html' },
+                    { text: 'Kotlin & Java', link: '/KotlinAndJava.html' },
                 ]
             },
         ],
