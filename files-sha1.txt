@@ -41,7 +41,7 @@ d1064ce0fb22a30bfd67db0b45083c6bceaac227  docs/mirai-login-solver-selenium/image
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 2a6a61a53d737a1a7cc56d551c22921a79c1bb5a  docs/Preparations.md
-de7fc0b93050a96f49b57c9ea00c814e25fab6c6  docs/README.md
+9520dfb5afd46457395aa6917557cb14a459a07f  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
 b9216dff1d5696904f61fb6decbf218d40f07ec0  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.ft
