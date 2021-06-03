@@ -7,3 +7,4 @@ shell*.sh
 tmp*.txt
 /files-sha1-rebuilt.txt
 /gh-pages-repo
+/repos

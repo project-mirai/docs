@@ -90,7 +90,7 @@ let navs = require('./nav');
 function addNav(loc, navx) {
     function patch(nav) {
         if (loc == '') return;
-        if (nav.link != null) {
+        if (nav.link != null && nav.link[0] == '/') {
             nav.link = '/' + loc + nav.link;
         }
         if (nav.items != undefined) {
