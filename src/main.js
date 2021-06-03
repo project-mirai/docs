@@ -19,7 +19,9 @@ let logCommandExecute = (function () {
     return function (prefix, args) {
         var resp = String(Array.prototype.join.call(args, ' '));
         for (const s of sec) {
-            resp = resp.replace(s.trim(), "****");
+            if (s != undefined) {
+                resp = resp.replace(s.trim(), "****");
+            }
         }
         console.log(prefix + resp);
     }
