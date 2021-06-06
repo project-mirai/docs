@@ -22,13 +22,13 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
 5d0fe4efff2a858093ed3d612ef4c6c8912aaf93  docs/console/Run.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
-f043ebb5f293a409b2c4f8cebf26a95dc9b79e1f  docs/CoreAPI.md
+cbfaffc64f9483435c2953a81c23eba89750efd1  docs/CoreAPI.md
 b2aa34efe2f7858c5a83f4864c0fbe86575e5f7d  docs/EventList.md
 edcc1adcf1d1ef6db9f3a010cb16e46ab450f741  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-4af49be29b068f5c845f414c54318375e6f14bda  docs/Messages.md
+7630fa0e5d45515224c6308d1a819e8e4bff6284  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 19fb8eaa60e5ac6a10f449f0daa019e1e4ee4e5b  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
