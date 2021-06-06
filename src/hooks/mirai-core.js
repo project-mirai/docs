@@ -10,6 +10,10 @@ function hook(utils, repoInfo, postCall) {
     );
     utils.runInShell(
         "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
+        'sed -i -r "s+https://github.com/mamoe/mirai-console/blob/master/docs/+/console/+g" {} \\;'
+    );
+    utils.runInShell(
+        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
         'sed -i -r "s+https://github.com/mamoe/mirai/blob/dev/docs/+/+g" {} \\;'
     );
     utils.runInShell(

@@ -142,7 +142,7 @@ let pathModule = require('path');
 vueConf.configureWebpack.resolve.alias['@root'] =
     pathModule.dirname(pathModule.dirname(require.main.filename)) + '/docs';
 utils.runInShell("mkdir docs/.vuepress");
-fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf));
+fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf, null, 2));
 
 
 utils.runInShell(

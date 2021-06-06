@@ -13,7 +13,7 @@ module.exports = {
                     { text: "CoreAPI", link: "/CoreAPI.html" },
                     { text: "机器人", link: "/Bots.html" },
                     { text: "联系人", link: "/Contacts.html" },
-                    { text: "事件", link: "/EventList.html" },
+                    { text: "事件", link: "/Events.html" },
                     { text: "消息", link: "/Messages.html" },
                 ]
             },
@@ -21,6 +21,7 @@ module.exports = {
                 text: "Misc", items: [
                     { text: 'Mirai - Evolution', link: '/Evolution.html' },
                     { text: 'Kotlin & Java', link: '/KotlinAndJava.html' },
+                    { text: "事件列表", link: "/EventList.html" },
                 ]
             },
         ],
