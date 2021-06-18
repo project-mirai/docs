@@ -4,6 +4,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 a857a5159ee33cae41c9762381f615877fc04938  docs/.vuepress/config.js
 f1dbbd438107b222a55b258aa7fb569d6dff5ac4  docs/Bots.md
+6cbb83f480c1d876f7995fdaf7287b279e28eb71  docs/ConciseAPI.md
 fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
@@ -23,7 +24,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
 5d0fe4efff2a858093ed3d612ef4c6c8912aaf93  docs/console/Run.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
-cbfaffc64f9483435c2953a81c23eba89750efd1  docs/CoreAPI.md
+7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 b2aa34efe2f7858c5a83f4864c0fbe86575e5f7d  docs/EventList.md
 edcc1adcf1d1ef6db9f3a010cb16e46ab450f741  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
