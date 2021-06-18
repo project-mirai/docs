@@ -2,7 +2,7 @@
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
-a857a5159ee33cae41c9762381f615877fc04938  docs/.vuepress/config.js
+1865152d740e5458c0f6eaf17cc253748e9c8728  docs/.vuepress/config.js
 f1dbbd438107b222a55b258aa7fb569d6dff5ac4  docs/Bots.md
 6cbb83f480c1d876f7995fdaf7287b279e28eb71  docs/ConciseAPI.md
 fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
