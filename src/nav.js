@@ -19,6 +19,7 @@ module.exports = {
             },
             {
                 text: "Misc", items: [
+                    { text: '主要API', link: '/ConciseAPI.html' },
                     { text: 'Mirai - Evolution', link: '/Evolution.html' },
                     { text: 'Kotlin & Java', link: '/KotlinAndJava.html' },
                     { text: "事件列表", link: "/EventList.html" },
