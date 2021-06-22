@@ -12,7 +12,7 @@ mirai 系列文档并不直接存放在该仓库, 如果需要编辑文档内容
 - `/calc-sha1.sh`: 计算 `/docs` 的 sha1, 并输入至 `/files-sha1-rebuilt.txt`
 - `/package.json`, `/yarn.lock`: VuePress 依赖
 - `/rend-doc.sh`: 第一版生成文档的 `shell` 脚本, 不再使用
-- `/srcs`: 用于检查文档更新的 `NodeJs` 运行脚本
+- `/src`: 用于检查文档更新的 `NodeJs` 运行脚本
   - `/main.js`: 主程序入口点, 完成自动文档更新, sha1 更新
   - `/config.js`: 配置文件, 可在 `/config-local.js` 覆盖默认配置
   - `/locations.js`: 仓库位置对照表 (1)
