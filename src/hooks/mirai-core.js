@@ -18,8 +18,12 @@ function hook(utils, repoInfo, postCall) {
     );
     utils.runInShell(
         "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\.UserManual_images+./.UserManual_images+g" {} \\;'
+        'sed -i -r "s+\\.UserManual_images+./https://github.com/mamoe/mirai/blob/dev/docs/.UserManual_images/+g" {} \\;'
     );
+    utils.runInShell(
+        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
+        'sed -i -r "s+\\.\\./mirai-core-api/+https://github.com/mamoe/mirai/blob/dev/mirai-core-api/+g" {} \\;'
+    )
 }
 
 
