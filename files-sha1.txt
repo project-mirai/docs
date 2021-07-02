@@ -54,7 +54,7 @@ cc7352b898fc542e6e23c85ac45e7d2a111776d8  docs/tools/intellij-plugin/resources/f
 9475f863943dd8394cb3ddd8533be8700d88609f  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.html
 d9bc50374f637b9a7ccb706a02343c1ec2136478  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.ft
 4376c5daa73f9e1a844c64d036c392f278379fdd  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin build.gradle.kts.html
-ad287c8065525a8ae2de9b8c5d8eace949e20130  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft
+1cb7fdbe5b7db43f2b2113df61857c8883754332  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft
 5db53e213e87e921dae2af05e27ddce8c713826e  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.ft.back
 44a0be2dca5728b91c415b899b9407c67b842010  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Java.java.html
 b02ef8d2ea7e080aa825ece8447ed29621479c05  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/Plugin main class Kotlin.kt.ft
