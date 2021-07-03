@@ -66,4 +66,4 @@ bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/f
 b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
 5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
-cd757d94bfc3966337ea7fd9c51aaa9a09eb0035  docs/UserManual.md
+295240ed9a940161c16c523bf19a3e0bd2168520  docs/UserManual.md
