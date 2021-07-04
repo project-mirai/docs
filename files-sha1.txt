@@ -18,7 +18,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
 22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
 33dccda1d0a828868ddba0e8506defadd58801c7  docs/console/Permissions.md
-9f55966cfa664190d767343ab77f1b5daa3136d0  docs/console/PluginData.md
+9f9693a3b1e29b562f1ad3deb79c117b89dde417  docs/console/PluginData.md
 62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
