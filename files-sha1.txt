@@ -4,7 +4,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 1865152d740e5458c0f6eaf17cc253748e9c8728  docs/.vuepress/config.js
 a59bf545d3aaa1600b7e398abe439371f9de97e7  docs/Bots.md
-6cbb83f480c1d876f7995fdaf7287b279e28eb71  docs/ConciseAPI.md
+9e56ef4d7688b1607b43d2687e22663cae58afac  docs/ConciseAPI.md
 fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
