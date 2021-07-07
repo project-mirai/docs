@@ -3,9 +3,9 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 1865152d740e5458c0f6eaf17cc253748e9c8728  docs/.vuepress/config.js
-a59bf545d3aaa1600b7e398abe439371f9de97e7  docs/Bots.md
+a9ef8d2a40e787e2a3443e5ffdf2c78980562917  docs/Bots.md
 9e56ef4d7688b1607b43d2687e22663cae58afac  docs/ConciseAPI.md
-fc94f7bfb0406cc54033b137cc5825ce4e66dbd5  docs/ConfiguringProjects.md
+3c360538e087256cee9c34f156a9a474ef033d55  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
@@ -43,7 +43,7 @@ d1064ce0fb22a30bfd67db0b45083c6bceaac227  docs/mirai-login-solver-selenium/image
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 3eafecb05a6a46489d8b7c81ccebd8a80db52c49  docs/Preparations.md
-8ea13ed852e55c2d908209eec922880039d593cc  docs/README.md
+29c1de723a035b883e493130c3bb5ecc3ea243a7  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
 2a4685f1b47f04b2d1b5c3f55e0538f2da08a559  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.ft
