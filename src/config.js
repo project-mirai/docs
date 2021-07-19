@@ -20,6 +20,8 @@ let conf = module.exports = {
     verbose: {
         cp: true,
         command: true,
+        vuepress_settings: true,
+        show_debug: true,
     },
 };
 

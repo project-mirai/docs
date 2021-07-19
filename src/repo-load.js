@@ -1,4 +1,5 @@
 let navs = require('./nav');
+let config = require('./config');
 
 module.exports = {
     onLoad: function (repoName, repoLoc, docRel) {
@@ -10,9 +11,12 @@ module.exports = {
         }
         docConf += '/.conf';
         try {
-            var nv = require(docConf + '/nav');
+            let nv = require(docConf + '/nav');
             navs[repoName] = nv;
         } catch (ignore) {
+            if (config.verbose.show_debug) {
+                console.log(ignore)
+            }
         }
     },
 };

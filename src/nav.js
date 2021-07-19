@@ -1,3 +1,5 @@
+console.log("[SYSTEM] src/nav.js: Loaded");
+
 module.exports = {
     'mamoe/mirai': {
         text: "mirai-core",

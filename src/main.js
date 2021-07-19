@@ -144,7 +144,15 @@ let pathModule = require('path');
 vueConf.configureWebpack.resolve.alias['@root'] =
     pathModule.dirname(pathModule.dirname(require.main.filename)) + '/docs';
 utils.runInShell("mkdir docs/.vuepress");
-fs.writeFileSync("docs/.vuepress/config.js", "module.exports = " + JSON.stringify(vueConf, null, 2));
+(function () {
+    let settings = "module.exports = " + JSON.stringify(vueConf, null, 2);
+    if (config.verbose.vuepress_settings) {
+        console.log("===================== VUE PRESS BUILD SETTINGS ============================");
+        console.log(settings);
+        console.log("===================== VUE PRESS BUILD SETTINGS ============================");
+    }
+    fs.writeFileSync("docs/.vuepress/config.js", settings);
+})();
 
 
 utils.runInShell(
