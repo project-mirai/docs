@@ -2,7 +2,7 @@
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
-1865152d740e5458c0f6eaf17cc253748e9c8728  docs/.vuepress/config.js
+6bad26f5d13224d889f3c6860b224f319c40fa35  docs/.vuepress/config.js
 a9ef8d2a40e787e2a3443e5ffdf2c78980562917  docs/Bots.md
 9e56ef4d7688b1607b43d2687e22663cae58afac  docs/ConciseAPI.md
 3c360538e087256cee9c34f156a9a474ef033d55  docs/ConfiguringProjects.md
@@ -32,6 +32,17 @@ b678c05b878c436fd20090b008ae94f1633a3ea7  docs/Events.md
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
 829fde37559d910a5a6e34d20e03e2e93835f55c  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
+fb5735f42b1ff835cda902a1fc8528c4777f1bcc  docs/mirai-api-http/adapter/Adapter.md
+55ed3d7042dcbf3b77c378492037039b2e76201f  docs/mirai-api-http/adapter/CustomizedAdapter.md
+8c5c34ca1663e227ed16dfa5f4d6837166114841  docs/mirai-api-http/adapter/HttpAdapter.md
+f9282886e9607f291229b3129e1e2cd5c80bed5d  docs/mirai-api-http/adapter/ReverseWebsocketAdapter.md
+5e8656284616cb87892f04ed43e57bbcfc8a2faa  docs/mirai-api-http/adapter/WebhookAdapter.md
+bc608ab32801c4b05fc8fbe37de03751cff6b50b  docs/mirai-api-http/adapter/WebsocketAdapter.md
+f33aa60962d1d2cb2db71ac5204cd5b073486a88  docs/mirai-api-http/api/API.md
+eb27f14e9ff6be75a7dd1b7c88b3fc228ab4012c  docs/mirai-api-http/api/EventType.md
+4b96dd1db9771ef0bf78755559f993c2244f2c7b  docs/mirai-api-http/api/MessageType.md
+2ce66bbfb57560061d88bfa68fcb8ec1dde31621  docs/mirai-api-http/misc/Migration2.md
+45192afa2f7e11556915629d8286d0984a85eed9  docs/mirai-api-http/README.md
 19fb8eaa60e5ac6a10f449f0daa019e1e4ee4e5b  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
 5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
