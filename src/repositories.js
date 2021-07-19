@@ -3,4 +3,5 @@ module.exports = [
     ["mamoe/mirai", "dev", "docs", "", "mirai-core"],
     ["mamoe/mirai-console", "master", "docs", "console", "console"],
     ["project-mirai/mirai-login-solver-selenium", "master", undefined, "", "mirai-login-solver-selenium"],
+    ["project-mirai/mirai-api-http", "master", "docs", "mirai-api-http", "mirai-api-http"],
 ];
