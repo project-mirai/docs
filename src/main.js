@@ -88,6 +88,7 @@ var postCalls = [];
 
 let vueConf = require('./vuepress-conf');
 let navs = require('./nav');
+let repoLoad = require('./repo-load')
 
 function addNav(loc, navx) {
     function patch(nav) {
@@ -112,6 +113,7 @@ for (const repo of repositories) {
         repo_loc = './repos/' + repo[0].replace('/', '_');
         system("git", "clone", repoLoc(repo[0]), repo_loc, '--branch', repo[1]);
     }
+    repoLoad.onLoad(repo[0], repo_loc, repo[2]);
     // console.log("Loc of repo", repo[0], "is", repo_loc);
     if (repo[2] != undefined) {
         utils.cp(repo_loc + '/' + repo[2], 'docs/' + repo[3]);
