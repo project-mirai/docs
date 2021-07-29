@@ -4,4 +4,5 @@ module.exports = [
     ["mamoe/mirai-console", "master", "docs", "console", "console"],
     ["project-mirai/mirai-login-solver-selenium", "master", undefined, "", "mirai-login-solver-selenium"],
     ["project-mirai/mirai-api-http", "master", "docs", "mirai-api-http", "mirai-api-http"],
+    ["iTXTech/mirai-console-loader", "master", "docs", "mcl", "mirai-console-loader"],
 ];
