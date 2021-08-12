@@ -3,9 +3,9 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/.UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/.UserManual_images/MCPS-1.png
 bf53fc060132c0bf13ba1c44010b65ad53917555  docs/.vuepress/config.js
-a9ef8d2a40e787e2a3443e5ffdf2c78980562917  docs/Bots.md
+41172059ec03114b1411f34fa7b0885ba21fa72c  docs/Bots.md
 9e56ef4d7688b1607b43d2687e22663cae58afac  docs/ConciseAPI.md
-3c360538e087256cee9c34f156a9a474ef033d55  docs/ConfiguringProjects.md
+d682c4483f8c2bef51a73f6b1fea98564d8fe628  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
