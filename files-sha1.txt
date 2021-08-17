@@ -56,7 +56,7 @@ c71bebc5cf7c4a012409f1091208ef1b63945702  docs/mirai-login-solver-selenium/image
 3baa9d92a875e38c3e7538e6fef2aa774b004059  docs/mirai-login-solver-selenium/images/img4.png
 439c3fcff1c5e2cf7d87c3db6887b60268ff6032  docs/mirai-login-solver-selenium/images/img5.png
 d1064ce0fb22a30bfd67db0b45083c6bceaac227  docs/mirai-login-solver-selenium/images/img6.png
-4ac07220bedce8878ff0180937fad5b579acb2a5  docs/mirai-login-solver-selenium/README.md
+cf58cd4be90c102190cc1133e54d3314017c682b  docs/mirai-login-solver-selenium/README.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 3eafecb05a6a46489d8b7c81ccebd8a80db52c49  docs/Preparations.md
