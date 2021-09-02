@@ -5,7 +5,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 bf53fc060132c0bf13ba1c44010b65ad53917555  docs/.vuepress/config.js
 f8032342075d0e70f592dbad62a56978c7b1433e  docs/Bots.md
 9e56ef4d7688b1607b43d2687e22663cae58afac  docs/ConciseAPI.md
-528e0c958c230153372cc0f754edf1a9e53fe8ab  docs/ConfiguringProjects.md
+90a99d88572ddbce4e107e5b0abd544cc65cea54  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
@@ -16,7 +16,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclara
 1bee01f50ceb304a068d6349983f400cc45d35a7  docs/console/ConfiguringProjects.md
 526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
 6c2f479c70deed8eeecbddb220db3a2cb94f1a5c  docs/console/Extensions.md
-22fe70e33861b2196e3ab5cd8d7b0aab6cb43fdb  docs/console/FrontEnd.md
+97f92df985071328a40cadb8a7c1b8632f87e2c6  docs/console/FrontEnd.md
 003c9053da374fd76d1a242d158f25c882faeb76  docs/console/Permissions.md
 9f9693a3b1e29b562f1ad3deb79c117b89dde417  docs/console/PluginData.md
 62d65b2eb5156d91c6c01388dd21d969ce31d3a6  docs/console/Plugins.md
@@ -84,3 +84,4 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
 295240ed9a940161c16c523bf19a3e0bd2168520  docs/UserManual.md
+621890f94d4c63afa5715472de9bf9d53b109b55  docs/UsingSnapshots.md
