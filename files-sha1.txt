@@ -5,7 +5,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 bf53fc060132c0bf13ba1c44010b65ad53917555  docs/.vuepress/config.js
 f8032342075d0e70f592dbad62a56978c7b1433e  docs/Bots.md
 adc17b5cd4d8863fe9253b50b7d20113b2fa8fda  docs/ConciseAPI.md
-09a3cdbbd072a5b1b29b753e1ae3ea4b45e1ece8  docs/ConfiguringProjects.md
+aaed60af5fb730868a5dc4c5e57505576c8bed60  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
@@ -26,7 +26,7 @@ ff55ab079a7ec7de69e1f4dfec11a766fc27a7b1  docs/console/README.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 5ea04b7ef65fb1456354d948153f58125a3c5a4d  docs/DebuggingNetwork.md
-b2aa34efe2f7858c5a83f4864c0fbe86575e5f7d  docs/EventList.md
+f50cee4ea4c5f669d82c5bb570c4004c139e5b9d  docs/EventList.md
 50ee55a43f581a55111d15614f9c8aa1255be756  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
@@ -60,7 +60,7 @@ cf58cd4be90c102190cc1133e54d3314017c682b  docs/mirai-login-solver-selenium/READM
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 3eafecb05a6a46489d8b7c81ccebd8a80db52c49  docs/Preparations.md
-732cf4d9d6b1abff29b9270cf72e9baaa263f119  docs/README.md
+9de686d504a295df4f69bd531d936e2602a03372  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
 2a4685f1b47f04b2d1b5c3f55e0538f2da08a559  docs/tools/intellij-plugin/resources/fileTemplates/j2ee/.gitignore.ft
