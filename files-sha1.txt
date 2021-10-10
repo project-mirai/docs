@@ -5,7 +5,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 bf53fc060132c0bf13ba1c44010b65ad53917555  docs/.vuepress/config.js
 f8032342075d0e70f592dbad62a56978c7b1433e  docs/Bots.md
 adc17b5cd4d8863fe9253b50b7d20113b2fa8fda  docs/ConciseAPI.md
-aaed60af5fb730868a5dc4c5e57505576c8bed60  docs/ConfiguringProjects.md
+6c0c89b931d6a9d2d1498cae49b344abdb5ea71d  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/.ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/.ConfiguringProjects_images/a6a3b24b.png
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/.images/PluginMainDeclaration.png
