@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "aeebe105087246b7571d9a07a8d3c0c0"
+    "revision": "f11f8198713455d609bdae95e1d6c21c"
   },
   {
     "url": "assets/css/0.styles.f46ac581.css",
@@ -270,200 +270,200 @@ self.__precacheManifest = [
     "revision": "48c1032521ca986c018097bd6a73d1b3"
   },
   {
-    "url": "assets/js/9.05cbb4d4.js",
-    "revision": "b2ce9d9a5fd93399650aee17c9b8d3e0"
+    "url": "assets/js/9.bee4da1d.js",
+    "revision": "6f031717ef1d36699bd6b282b90cc0ef"
   },
   {
-    "url": "assets/js/app.c69f71f4.js",
-    "revision": "e6874a693f5a5be6dad507807353ccd5"
+    "url": "assets/js/app.832a9c1d.js",
+    "revision": "af78b82d8e629f2751aa4ed0749e581e"
   },
   {
     "url": "Bots.html",
-    "revision": "5d1f37d3be10204b936204966942685e"
+    "revision": "c1db2ff8fcfa7cb7d6be310974b24f19"
   },
   {
     "url": "ConciseAPI.html",
-    "revision": "58b1e112411fc8691d8addee9b93e98f"
+    "revision": "cc074ca78b6158853a4296fda054af59"
   },
   {
     "url": "ConfiguringProjects.html",
-    "revision": "f2be90e1eb02fcc68f0e8043f10380e6"
+    "revision": "542055fac2cd2bb1380c14fcee2862c5"
   },
   {
     "url": "console/Appendix.html",
-    "revision": "b229d2168dcb7a913f8b31f2e4999eb6"
+    "revision": "20eab3119f925ca6fded4c381aa5be50"
   },
   {
     "url": "console/BuiltInCommands.html",
-    "revision": "5ca3f5f5bf6780aadcdd259c6fd91075"
+    "revision": "1f5ac92a61b76d6bbd74e2415025aa49"
   },
   {
     "url": "console/Commands.html",
-    "revision": "e42c6b431c3e39751c498b276ac3c36b"
+    "revision": "3752d300311da0a4f18b15a4eeb8c707"
   },
   {
     "url": "console/ConfiguringProjects.html",
-    "revision": "bb7c9da73250413e2a886785df8bea80"
+    "revision": "fecdf535f2ba1738a40ab724ec58d929"
   },
   {
     "url": "console/Contributing.html",
-    "revision": "d2e82754fb5544660bfd284c967c8ded"
+    "revision": "2f79d0dd6959898070e9c9dd07e054a4"
   },
   {
     "url": "console/Extensions.html",
-    "revision": "e79f6cdd4b9612572428f0471658b849"
+    "revision": "6a9510113b1e2dc18cee661b50282950"
   },
   {
     "url": "console/FrontEnd.html",
-    "revision": "4e8d37df468a153d8174d7ced58f98f2"
+    "revision": "31a92c2e2284c2771fc0311d59c0b9e6"
   },
   {
     "url": "console/index.html",
-    "revision": "8645140ac1413dfb2ccf78d0bef77b49"
+    "revision": "f044ee84fa109c66361608298a7776b1"
   },
   {
     "url": "console/Permissions.html",
-    "revision": "0ba342b99ec3573b021e7a427d9c17fc"
+    "revision": "6b2fd06d4c341a4f05e4610e7b6683a4"
   },
   {
     "url": "console/PluginData.html",
-    "revision": "a32bb9488c1b761c79f61aa12e91e1aa"
+    "revision": "6b132e8e5a2c2481c02e28261bbfe70d"
   },
   {
     "url": "console/Plugins.html",
-    "revision": "90cb31eac757f3236bc6749dd808b787"
+    "revision": "f796aa3800d6b355261315fba0e77e25"
   },
   {
     "url": "console/QA.html",
-    "revision": "fea5023fb01b666c715eec27598e7c3c"
+    "revision": "bfc3ec66db8526faff72811034fb1880"
   },
   {
     "url": "console/Run.html",
-    "revision": "cf327ce79d4ba4bfa1fb9cbf3a6c9366"
+    "revision": "a7383510e9a4242ae80bd516277716d7"
   },
   {
     "url": "Contacts.html",
-    "revision": "8bb3ef3207fd2777e97937cb16d6a95f"
+    "revision": "cdbe90ab48c4a6c098c30ed7046ad1ad"
   },
   {
     "url": "CoreAPI.html",
-    "revision": "95aeeee7d8333ae4e76121360dc65bd5"
+    "revision": "c1e2520650399062345880660a366255"
   },
   {
     "url": "DebuggingNetwork.html",
-    "revision": "b5f9014ae5bdcc9a1fe54ca5a3ac1650"
+    "revision": "57e738c701988b35510b9cf388cc45ee"
   },
   {
     "url": "EventList.html",
-    "revision": "a9bb3d94a9df85d825c5ce8ba7df6674"
+    "revision": "89ad7c5cb6de0b37fa86e4ccdab21098"
   },
   {
     "url": "Events.html",
-    "revision": "e4232d84ee613548bb57a0102d3fca7c"
+    "revision": "05f1e58347b307346d036dccbd063f29"
   },
   {
     "url": "Evolution.html",
-    "revision": "db6b51969d2ac296c26ddce3a2c3e29c"
+    "revision": "971bb5bd3e8a222d37e6f8892ceab078"
   },
   {
     "url": "index.html",
-    "revision": "38d94900cfcc145d1f52b35035f858ba"
+    "revision": "39f9f0ab84e27ac94c1d1455e7559dda"
   },
   {
     "url": "KotlinAndJava.html",
-    "revision": "a6ed4909421eb35c22eaa90cbbdac650"
+    "revision": "779e56275a4c09c21b565978204625c6"
   },
   {
     "url": "mcl/index.html",
-    "revision": "0b04c3dae96690dd2f93e59b09b0e56a"
+    "revision": "c250483fd5db3ee5591799193675836c"
   },
   {
     "url": "mcl/Plugin.html",
-    "revision": "1788a8b9fabf28f378232d16ac6c6ea6"
+    "revision": "eabf86869412493543d2ad8a96fe0565"
   },
   {
     "url": "mcl/Script.html",
-    "revision": "4b8ce349c85e020c2e20247ac8f40ddd"
+    "revision": "cc56237c551b4f17b7bc6d2fead0b45e"
   },
   {
     "url": "Messages.html",
-    "revision": "e03c90e074fe6e623653271bc126c680"
+    "revision": "107d139a1cf3fbb9ae01b5c2500d7759"
   },
   {
     "url": "MigrationFrom1x.html",
-    "revision": "a3bc9f915d7682a0afc29b29b8deca17"
+    "revision": "657372d72f6d6bdee33be850f168fca8"
   },
   {
     "url": "mirai-api-http/adapter/Adapter.html",
-    "revision": "010bddfb91b0b2d63bc096c485caf154"
+    "revision": "b4e7b1020240b76a15d8500de6884a2c"
   },
   {
     "url": "mirai-api-http/adapter/CustomizedAdapter.html",
-    "revision": "33f123dadd53c6a69380191d2d857fea"
+    "revision": "6e2985e42119d2f213b1d4e9b32ce588"
   },
   {
     "url": "mirai-api-http/adapter/HttpAdapter.html",
-    "revision": "0eec420b29e47c2f0ce38612374296f1"
+    "revision": "2bc3ea793d1b18b7c8e8359c4ddc7a4f"
   },
   {
     "url": "mirai-api-http/adapter/ReverseWebsocketAdapter.html",
-    "revision": "595af0a3e62180af7d60b97480d3e8dd"
+    "revision": "5c62d45593692ec07e3195a0c79702fe"
   },
   {
     "url": "mirai-api-http/adapter/WebhookAdapter.html",
-    "revision": "eb81517678a4da43b4eedd0c5e73571c"
+    "revision": "89262928ad6a6426ec019983c5472475"
   },
   {
     "url": "mirai-api-http/adapter/WebsocketAdapter.html",
-    "revision": "eebde87ad3dabbd0ce3b38b4d452268b"
+    "revision": "12ad7bc556270cad2f1c21b262da56ac"
   },
   {
     "url": "mirai-api-http/api/API.html",
-    "revision": "0033316d428af7683f745dfe628b7999"
+    "revision": "a3645c3fc653f3d346bbabb394e3c0c4"
   },
   {
     "url": "mirai-api-http/api/EventType.html",
-    "revision": "097fc33558961336337198cdf1b76788"
+    "revision": "e3f310b38a06db9d7ac174715c6e32c0"
   },
   {
     "url": "mirai-api-http/api/MessageType.html",
-    "revision": "0526979e18546f2700ec1d6b63af0e81"
+    "revision": "8608f1dcdf39050979b9c18cf8e90489"
   },
   {
     "url": "mirai-api-http/index.html",
-    "revision": "9b4e6e98ff0b11d77caccf6c2024cbee"
+    "revision": "2449942c036020e7be1aa0b21659cf78"
   },
   {
     "url": "mirai-api-http/misc/Migration2.html",
-    "revision": "1e7319eda899bfa2bb7b0a666ca7a88d"
+    "revision": "2fd8ef98044c62cead26f5ba964c07dd"
   },
   {
     "url": "mirai-ecology.html",
-    "revision": "5c8641d5bb8f92c96b03932e487f4dc2"
+    "revision": "31643ef7482be50a7de42d813d0737e8"
   },
   {
     "url": "mirai-login-solver-selenium/index.html",
-    "revision": "1496b7a86e108b7dc2adfaa432065865"
+    "revision": "2fafe0353e1fae1541765b63d6c56046"
   },
   {
     "url": "Preparations.html",
-    "revision": "b00493d95b40786a27bba56500192a0e"
+    "revision": "9e894b7daa36f745fb3e4cb423c119ba"
   },
   {
     "url": "src/Contacts.mermaid.html",
-    "revision": "77e6beab50eb94a84bf8d372b69836b8"
+    "revision": "413859b6d828f68ea6a505bfea11214e"
   },
   {
     "url": "src/Messages.mermaid.html",
-    "revision": "ef110efb75559d1dd1c68572696e5067"
+    "revision": "f296e9a5866953a3c04e37fce2346fd4"
   },
   {
     "url": "UserManual.html",
-    "revision": "93b5780e6a71eebad1ba9c026ecc9904"
+    "revision": "9190092c9dc770b61d77c97063c44a5c"
   },
   {
     "url": "UsingSnapshots.html",
-    "revision": "1f17c0fc0d9d951187f1f2450ee72265"
+    "revision": "a7881aa5c4217e3fb6fc4e805b401711"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
