@@ -5,6 +5,7 @@ module.exports = {
     markdown: {
         lineNumbers: true,
     },
+    dest: require('path').join(process.cwd(), 'vuepress-dist'),
     theme: "antdocs",
     themeConfig: {
         backToTop: true,

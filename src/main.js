@@ -9,10 +9,12 @@ console.log("Config:", config);
 var repo_locations = {};
 try {
     repo_locations = require('./locations');
-} catch (ignore) { }
+} catch (ignore) {
+}
 
 let logCommandExecute = (function () {
-    if (!config.verbose.command) return () => { };
+    if (!config.verbose.command) return () => {
+    };
     let sec = [
         config.deploy.GH_TOKEN(),
     ];
@@ -102,17 +104,31 @@ function addNav(loc, navx) {
             }
         }
     }
+
     if (navx == undefined) return;
     patch(navx);
     vueConf.themeConfig.nav.push(navx);
 }
 
-for (const repo of repositories) {
-    var repo_loc = repo_locations[repo[0]];
+for (const repo of repositories.repositories) {
+    let repo_loc = repo_locations[repo[0]];
+
     if (repo_loc == null) {
-        repo_loc = './repos/' + repo[0].replace('/', '_');
-        system("git", "clone", repoLoc(repo[0]), repo_loc, '--branch', repo[1]);
+        let tm_repo_name = repo[0];
+        let mirror = repositories.mirror[repo[0]];
+        if (mirror != null) {
+            tm_repo_name = mirror
+        }
+        repo_loc = repo_locations[tm_repo_name];
+
+        if (repo_loc == null) {
+            repo_loc = './repos/' + tm_repo_name.replace('/', '_');
+            if (!fs.existsSync(repo_loc)) {
+                system("git", "clone", repoLoc(repo[0]), repo_loc, '--branch', repo[1]);
+            }
+        }
     }
+
     repoLoad.onLoad(repo[0], repo_loc, repo[2]);
     // console.log("Loc of repo", repo[0], "is", repo_loc);
     if (repo[2] != undefined) {
@@ -121,7 +137,8 @@ for (const repo of repositories) {
     var patch = undefined;
     try {
         patch = require('./hooks/' + repo[4]);
-    } catch (ignore) { }
+    } catch (ignore) {
+    }
     // console.log("Hook of", repo[0], "is", patch);
     if (patch != null) {
         /**
@@ -134,6 +151,9 @@ for (const repo of repositories) {
             docLocation: repo_loc + '/' + repo[2],
             copiedDocLocation: 'docs/' + repo[3]
         };
+        while (info.copiedDocLocation.endsWith('/')) {
+            info.copiedDocLocation = info.copiedDocLocation.substr(0, info.copiedDocLocation.length - 1)
+        }
         patch(utils, info, postCalls);
     }
     addNav(repo[3], navs[repo[0]]);
@@ -191,19 +211,21 @@ var updateToDate = (() => {
         .split('\n');
 
     /**
-     * @param {string} s 
+     * @param {string} s
      */
     function getPath(s) {
         let i = s.indexOf(' ');
         return s.substr(i + 1).trim();
     }
+
     /**
-     * @param {string} s1 
-     * @param {string} s2 
+     * @param {string} s1
+     * @param {string} s2
      */
     function comp(s1, s2) {
         return getPath(s1).localeCompare(getPath(s2), 'en-US');
     }
+
     latest.sort(comp);
     rebuilt.sort(comp);
 
@@ -236,6 +258,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     if (!fs.existsSync("gh-pages-repo")) {
         system("mkdir gh-pages-repo");
     }
+
     function gsys(cmd) {
         logCommandExecute("[SYSTEM] [DEPLOY] Executing ", arguments);
         child_process.spawnSync(cmd,
@@ -246,6 +269,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
             }
         );
     }
+
     function gsysHidden(cmd) {
         logCommandExecute("[SYSTEM] [DEPLOY] Executing ", arguments);
         child_process.spawnSync(cmd,
@@ -256,6 +280,7 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
             }
         );
     }
+
     if (!fs.existsSync('gh-pages-repo/.git')) {
         gsys('git', 'init');
         gsys('git', 'remote', 'add', 'origin', repoLoc('project-mirai/docs'));
@@ -266,31 +291,35 @@ if (config.deploy.enable && (config.deploy.ignore_update_to_date || !updateToDat
     }
     try {
         gsys('git', 'remote', 'remove', 'token');
-    } catch (e) { }
+    } catch (e) {
+    }
     gsys('git', 'fetch', '--all');
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
     try {
         gsys('git', 'branch', 'gh-pages');
-    } catch (ignore) { }
+    } catch (ignore) {
+    }
     try {
         gsys('git', 'checkout', '--force', 'gh-pages');
-    } catch (ignore) { }
+    } catch (ignore) {
+    }
     gsys('git', 'checkout', '--force', 'origin/gh-pages');
     gsys('rm', '-rf', '*');
     gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
     gsys('git', 'checkout', 'HEAD', '--', 'favicon.ico');
     gsysHidden('git', 'rm', '--cache', '-r', '.');
-    utils.cp('docs/.vuepress/dist', 'gh-pages-repo');
+    utils.cp('vuepress-dist', 'gh-pages-repo');
     gsys('git', 'add', '.');
     if (config.deploy.auto_commit) {
-        let commit_msg = "VuePress rebuilt " + new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' });
+        let commit_msg = "VuePress rebuilt " + new Date().toLocaleString('en-US', {timeZone: 'Asia/Shanghai'});
         gsys('git', 'commit', '-m', commit_msg);
         if (config.deploy.run_publish) {
             if (config.deploy.token_publish) {
                 let remote = "https://x-access-token:" + config.deploy.GH_TOKEN() + "@github.com/project-mirai/docs.git"
                 try {
                     gsys('git', 'remote', 'add', 'token', remote);
-                } catch (e) { }
+                } catch (e) {
+                }
                 gsys('git', 'remote', 'set-url', 'token', remote);
                 gsys('git', 'push', 'token', 'HEAD:gh-pages');
                 gsys('git', 'remote', 'remove', 'token');
