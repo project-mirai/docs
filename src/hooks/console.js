@@ -16,7 +16,7 @@ function hook(utils, repoInfo, postCall) {
 
     utils.runInShell(
         "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\.\\./+https://github.com/mamoe/mirai-console/tree/master/+g" {} \\;'
+        'sed -i -r "s+\\.\\./+https://github.com/mamoe/mirai/tree/dev/mirai-console/+g" {} \\;'
     );
     utils.runInShell(
         "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
