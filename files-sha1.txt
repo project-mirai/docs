@@ -1,6 +1,6 @@
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-396bd49064de79e6d5f4d3c0e049295fa7b68f1e  docs/.vuepress/config.js
+3af520302ad8e9d61acc1ef6c34e37210e1c32fa  docs/.vuepress/config.js
 2edf7814b4dcd2de1fd20161b79faf2eb1480749  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 6c0c89b931d6a9d2d1498cae49b344abdb5ea71d  docs/ConfiguringProjects.md
