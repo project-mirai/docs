@@ -1,3 +1,6 @@
+/**
+ * @type {(import('vuepress/config').UserConfig<import('vuepress/config').DefaultThemeConfig>)}
+ */
 module.exports = {
     title: "mirai",
     description: "Mirai Project",
@@ -6,7 +9,6 @@ module.exports = {
         lineNumbers: true,
     },
     dest: require('path').join(process.cwd(), 'vuepress-dist'),
-    theme: "antdocs",
     themeConfig: {
         backToTop: true,
         sidebar: "auto",
