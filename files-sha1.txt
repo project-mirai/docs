@@ -3,7 +3,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 3af520302ad8e9d61acc1ef6c34e37210e1c32fa  docs/.vuepress/config.js
 2edf7814b4dcd2de1fd20161b79faf2eb1480749  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
-6c0c89b931d6a9d2d1498cae49b344abdb5ea71d  docs/ConfiguringProjects.md
+aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
 4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
 12fef2ba7ff2ba42485c418fd685ebf75a97b5c3  docs/console/Commands.md
@@ -46,7 +46,7 @@ e87bcf3a34d8cc11965289cb37ea83cfa741cc3c  docs/mirai-api-http/api/API.md
 556ccfd2b56432e1e0627f9e5252375a455ab670  docs/mirai-api-http/api/EventType.md
 a19ec79dafdc9138410d27e414aa5ee3c30d5ac1  docs/mirai-api-http/api/MessageType.md
 5334e73c285af6cee77aae9adedb04df9d7ea078  docs/mirai-api-http/misc/Migration2.md
-45192afa2f7e11556915629d8286d0984a85eed9  docs/mirai-api-http/README.md
+b804244d8f05b7b7dbf9448e58a86a06fc83770a  docs/mirai-api-http/README.md
 11875ea660f9054843a0278cb9e7aea1a25db137  docs/mirai-ecology.md
 9e3f50883417cafabb9231faeedcbd4654ee0b0e  docs/mirai-login-solver-selenium/images/img1.png
 5023151baefff66ef05fae0f8a5d8c2db403d8ef  docs/mirai-login-solver-selenium/images/img2.png
