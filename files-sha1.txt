@@ -10,7 +10,7 @@ aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
 cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
-526da992729d1fac556a52ebe63c280bfb3079fe  docs/console/Contributing.md
+0cff01b974b0d3108abf1a83d7801f8f665febe5  docs/console/Contributing.md
 5294f0854458714255b7432fd5328ff5f04624dc  docs/console/Extensions.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/images/PluginMainDeclaration.png
