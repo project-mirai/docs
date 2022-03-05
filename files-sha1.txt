@@ -33,7 +33,7 @@ dedf0524be917dd615ab6d7a9cc4f93277c64875  docs/Events.md
 6cddafe5188988881424e650de22022914014a32  docs/mcl/Plugin.md
 ddcf81ea13b63daffed9ab71ca0609ac1bf72d79  docs/mcl/README.md
 b2d6dedc3f6ed0d05af3da7e31f72011a83b33b2  docs/mcl/Script.md
-e496c7d756243ef2b576f562a51f9b6f199013f9  docs/Messages.md
+9997138c139dd2029c10b2fb8260293a8a1572ac  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 b05daffb016e9c0ecb7cd0337e34f422a5aa187a  docs/mirai-api-http/.conf/nav.js
 df8d48ddee43927441781306225d1ed0c1ff69c9  docs/mirai-api-http/adapter/Adapter.md
