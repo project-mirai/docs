@@ -15,7 +15,7 @@ cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/images/PluginMainDeclaration.png
 1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/images/PluginMainServiceNotConfigured.png
-1476232179ca04f8e2def9c006a2b80086ef7f4a  docs/console/Permissions.md
+2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
 144f872d7c4789a78ff2892cd3704089fd0fc2d7  docs/console/PluginData.md
 0ead76b9957c83187957c84ab0de26779bb8a600  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
