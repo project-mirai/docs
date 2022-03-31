@@ -6,7 +6,7 @@ b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
 4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
-125a8ce5e87b07562712b629853bc1adb0077144  docs/console/Commands.md
+487f64194ccad3c14b802d6f0dc1eacec3bfffc2  docs/console/Commands.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
 cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
@@ -17,7 +17,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/images/PluginMainDeclarat
 1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/images/PluginMainServiceNotConfigured.png
 2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
 144f872d7c4789a78ff2892cd3704089fd0fc2d7  docs/console/PluginData.md
-0ead76b9957c83187957c84ab0de26779bb8a600  docs/console/Plugins.md
+5d29962cb852f349e5395971c1f5e3d6eb32fcb6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 15fd0eaa67fb79dd9e70fdeb2b4953e43993b0ec  docs/console/README.md
 d0dd28209280381712548d3e393cd61b01a105bd  docs/console/Run.md
