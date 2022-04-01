@@ -1,6 +1,6 @@
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-3af520302ad8e9d61acc1ef6c34e37210e1c32fa  docs/.vuepress/config.js
+3a0477bb92eb8a366caeec359b58a0c17a24fb57  docs/.vuepress/config.js
 2edf7814b4dcd2de1fd20161b79faf2eb1480749  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
@@ -29,10 +29,10 @@ dedf0524be917dd615ab6d7a9cc4f93277c64875  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
-3bb82a368dd69dd7489d27d42537ac0a207a0568  docs/mcl/.conf/nav.js
-6cddafe5188988881424e650de22022914014a32  docs/mcl/Plugin.md
-ddcf81ea13b63daffed9ab71ca0609ac1bf72d79  docs/mcl/README.md
-b2d6dedc3f6ed0d05af3da7e31f72011a83b33b2  docs/mcl/Script.md
+993d658058fac8b9ef31368b249cdf5fec9fb020  docs/mcl/.conf/nav.js
+c4c78313b725acaeb2fbdf6785b2352752251983  docs/mcl/Module.md
+0f08d9d764e767d295c0eb3b8f9b0069460a7a55  docs/mcl/Plugin.md
+d66a64375d8ba7b2612815815e7ab513013122f3  docs/mcl/README.md
 9997138c139dd2029c10b2fb8260293a8a1572ac  docs/Messages.md
 ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 b05daffb016e9c0ecb7cd0337e34f422a5aa187a  docs/mirai-api-http/.conf/nav.js
