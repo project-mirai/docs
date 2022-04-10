@@ -6,7 +6,7 @@ b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
 4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
-487f64194ccad3c14b802d6f0dc1eacec3bfffc2  docs/console/Commands.md
+f928fad6b7d8fa1d09f6db30c55e83b566ad3dc9  docs/console/Commands.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
 cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
