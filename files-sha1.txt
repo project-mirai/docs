@@ -13,11 +13,14 @@ cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
 0cff01b974b0d3108abf1a83d7801f8f665febe5  docs/console/Contributing.md
 5294f0854458714255b7432fd5328ff5f04624dc  docs/console/Extensions.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
-a48804ef69844871c0b848802de72d7c76b993ff  docs/console/images/PluginMainDeclaration.png
-1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/images/PluginMainServiceNotConfigured.png
 2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
+a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainDeclaration.png
+1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/plugin/images/PluginMainServiceNotConfigured.png
+55ff7d8ae3d206c580aae3409fc3ecc20f4d268c  docs/console/plugin/JVMPlugin_images/75227ef5.png
+aa46a2ec83be16fb7187bc6052e40b2e286364ac  docs/console/plugin/JVMPlugin-Appendix.md
+810a1f4aa42ca1ce16969ee75b8454019a5960a2  docs/console/plugin/JVMPlugin.md
+5ea5bde4b4efac60bff775c340bfaf3532f72abc  docs/console/plugin/Plugins.md
 144f872d7c4789a78ff2892cd3704089fd0fc2d7  docs/console/PluginData.md
-5d29962cb852f349e5395971c1f5e3d6eb32fcb6  docs/console/Plugins.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 15fd0eaa67fb79dd9e70fdeb2b4953e43993b0ec  docs/console/README.md
 d0dd28209280381712548d3e393cd61b01a105bd  docs/console/Run.md
@@ -62,7 +65,7 @@ b829737537e24041060f765b972a6bbefef450be  docs/mirai-login-solver-selenium/image
 3117245e6cb44a24253e55c2821f85c852cfa7ff  docs/mirai-login-solver-selenium/README.md
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
-5b6293a5cc963133b00152e599319b458d266d49  docs/Preparations.md
+1884fc4d586cbd4514e04d9682a1875965bcd0e3  docs/Preparations.md
 fc84dae0e27e394a386fdbea13ef195220b35a82  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
