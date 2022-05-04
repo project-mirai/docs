@@ -97,5 +97,5 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/UserManual_images/MCPS-1.png
-9855c78d8f7d344fafdf0dfd7fceb655c3ac8b22  docs/UserManual.md
+36cef6baf5f64bf0f527d720de91c89fb8109dc2  docs/UserManual.md
 621890f94d4c63afa5715472de9bf9d53b109b55  docs/UsingSnapshots.md
