@@ -11,14 +11,14 @@ f928fad6b7d8fa1d09f6db30c55e83b566ad3dc9  docs/console/Commands.md
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
 cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
 0cff01b974b0d3108abf1a83d7801f8f665febe5  docs/console/Contributing.md
-5294f0854458714255b7432fd5328ff5f04624dc  docs/console/Extensions.md
+17f5973452dc87ff0a5c660dddb064b8d91fb24d  docs/console/Extensions.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
 2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainDeclaration.png
 1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/plugin/images/PluginMainServiceNotConfigured.png
 55ff7d8ae3d206c580aae3409fc3ecc20f4d268c  docs/console/plugin/JVMPlugin_images/75227ef5.png
 aa46a2ec83be16fb7187bc6052e40b2e286364ac  docs/console/plugin/JVMPlugin-Appendix.md
-810a1f4aa42ca1ce16969ee75b8454019a5960a2  docs/console/plugin/JVMPlugin.md
+874e6f5c63f9cb3d9041e7837390c68a04d23fbf  docs/console/plugin/JVMPlugin.md
 5ea5bde4b4efac60bff775c340bfaf3532f72abc  docs/console/plugin/Plugins.md
 144f872d7c4789a78ff2892cd3704089fd0fc2d7  docs/console/PluginData.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
