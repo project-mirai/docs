@@ -1,7 +1,7 @@
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 3a0477bb92eb8a366caeec359b58a0c17a24fb57  docs/.vuepress/config.js
-83c05b927f7ed91575261b76065bf57395c4b54f  docs/Bots.md
+f90e8edb50723892a64a175d72f27bdf487e3447  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
@@ -14,11 +14,14 @@ cbd98801eb198ced9cb2121b9859f37f03ddf31f  docs/console/ConfiguringProjects.md
 17f5973452dc87ff0a5c660dddb064b8d91fb24d  docs/console/Extensions.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
 2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
+7ccc0ee00e4a82752e9aa331c565d100939e8fff  docs/console/plugin/images/PluginDebugGradleTask.png
+c3e25abdb2f0accc0ae67e818d0d8dce51e96539  docs/console/plugin/images/PluginDebugRunConfiguration.png
+7e8dab616446080b0eedd4494d2e991807a056a4  docs/console/plugin/images/PluginDebugWindowPreview.webp
 a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainDeclaration.png
 1f2b513d31cbe7f65f718d4a9c1d4bad8dd00cca  docs/console/plugin/images/PluginMainServiceNotConfigured.png
 55ff7d8ae3d206c580aae3409fc3ecc20f4d268c  docs/console/plugin/JVMPlugin_images/75227ef5.png
 aa46a2ec83be16fb7187bc6052e40b2e286364ac  docs/console/plugin/JVMPlugin-Appendix.md
-874e6f5c63f9cb3d9041e7837390c68a04d23fbf  docs/console/plugin/JVMPlugin.md
+15f1e658ea5797a00090fd7bfd27b1cfc385218d  docs/console/plugin/JVMPlugin.md
 5ea5bde4b4efac60bff775c340bfaf3532f72abc  docs/console/plugin/Plugins.md
 144f872d7c4789a78ff2892cd3704089fd0fc2d7  docs/console/PluginData.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
@@ -88,9 +91,7 @@ dbaa4f3bce92041930bad98a6a43ccdb20db4a04  docs/tools/intellij-plugin/resources/f
 cef155b4a1f6ea9ecc05b293b6f14414001af870  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main service.txt.html
 bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.kts.ft
 8656b5fc323b7ba977059d5578125113b1471451  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.kts.html
-361f1851dc1b5220a876325fe78d73eca8de3582  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.kt.ft
-8656b5fc323b7ba977059d5578125113b1471451  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.kt.html
-a7081ed12e82351bb8ddf61daeb57c7897e92c65  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.run.xml.ft
+4b7b0a0792718c318b814300cd4e950b013b3fc9  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.run.xml.ft
 8656b5fc323b7ba977059d5578125113b1471451  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.run.xml.html
 b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/icons/commandDeclaration.svg
 5d2943e50f84152dacb02cc941e1dfb575053147  docs/tools/intellij-plugin/resources/icons/pluginIcon.svg
