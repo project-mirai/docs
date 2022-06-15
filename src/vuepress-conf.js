@@ -1,4 +1,20 @@
 /**
+ * @type {import("@vuepress/theme-default").DefaultThemeOptions}
+ */
+let themeConf = {
+    backToTop: true,
+    sidebar: "auto",
+    sidebarDepth: 2,
+    displayAllHeaders: true,
+    repo: "mamoe/mirai",
+    logo: "/mirai.png",
+    docsDir: "docs",
+    editLink: false,
+    lastUpdatedText: "上次更新",
+    navbar: [],
+};
+
+/**
  * @type {(import('vuepress/config').UserConfig<import('vuepress/config').DefaultThemeConfig>)}
  */
 module.exports = {
@@ -9,39 +25,9 @@ module.exports = {
         lineNumbers: true,
     },
     dest: require('path').join(process.cwd(), 'vuepress-dist'),
-    themeConfig: {
-        backToTop: true,
-        sidebar: "auto",
-        sidebarDepth: 2,
-        displayAllHeaders: true,
-        repo: "mamoe/mirai",
-        logo: "https://raw.githubusercontent.com/mamoe/mirai/dev/docs/mirai.png",
-        docsDir: "docs",
-        editLinks: false,
-        smoothScroll: true,
-        lastUpdated: "上次更新",
-        nav: [
-        ],
-    },
-    plugins: [
-        "@vuepress/plugin-medium-zoom",
-        "@vuepress/nprogress",
-        [
-            "@vuepress/pwa",
-            {
-                serviceWorker: true,
-                updatePopup: {
-                    message: "发现新内容",
-                    buttonText: "刷新",
-                },
-            },
-        ],
-    ],
-    configureWebpack: {
-        resolve: {
-            alias: {
-                '@root': 'docs'
-            }
-        }
-    },
+    themeConfig: themeConf,
+    plugins: [],
+    alias: {
+        '@root': 'docs'
+    }
 };

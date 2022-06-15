@@ -10,4 +10,5 @@ tmp*.txt
 /gh-pages-repo
 /repos
 /.idea
+/src/test.js
 
