@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-0aa69a5a","path":"/KotlinAndJava.html","title":"Mirai - Kotlin And Java","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"KotlinAndJava.md"}');export{a as data};

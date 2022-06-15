@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0e6d407f","path":"/console/Appendix.html","title":"Mirai Console - Appendix","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":3,"title":"Mirai Console \u6F14\u8FDB","slug":"mirai-console-\u6F14\u8FDB","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"console/Appendix.md"}');export{e as data};

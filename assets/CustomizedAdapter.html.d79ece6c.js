@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-d1ea4612","path":"/mirai-api-http/adapter/CustomizedAdapter.html","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"mirai-api-http/adapter/CustomizedAdapter.md"}');export{t as data};

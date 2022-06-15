@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-65872957","path":"/CoreAPI.html","title":"Mirai - Core API","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"CoreAPI.md"}');export{e as data};
