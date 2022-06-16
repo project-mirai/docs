@@ -1,7 +1,7 @@
-06586c9fd5c90dc5e4809cc6fc82012736c43259  docs/.conf/nav.js
+f6a8e917714447b3fcb6757140d9348b0fd1ab02  docs/.conf/nav.js
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-65644e3cbc9e86929905327c109fafee8f4ffbe6  docs/.vuepress/config.js
+bb4fe88ccea1ea948021b6565612fb86eab8fa60  docs/.vuepress/config.js
 da4a163042e5138e59e7a4aa4bbec06200f41a90  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 aed1d69286e0e742addbc535019ecda8c961fa96  docs/ConfiguringProjects.md
@@ -30,6 +30,7 @@ fd9d2667b8616228506e1f13860ba6879d434b01  docs/console/plugin/JVMPlugin.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 9b8aa06d60aeffd722775d58019ecdb73bef16e3  docs/console/README.md
 d0dd28209280381712548d3e393cd61b01a105bd  docs/console/Run.md
+30fd0be5d32c36a8762edc635a130b58dda0cb69  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 2b06cf6536c6d37afc2cbf77b9c64e6cfc876b3b  docs/DebuggingNetwork.md
@@ -51,8 +52,8 @@ df8d48ddee43927441781306225d1ed0c1ff69c9  docs/mirai-api-http/adapter/Adapter.md
 e8222300131a42b626860aed697bd05a104fa147  docs/mirai-api-http/adapter/ReverseWebsocketAdapter.md
 9102ec88b6544ea783e3306d5dfeeb65d413176e  docs/mirai-api-http/adapter/WebhookAdapter.md
 ca9b4e1ca4d5b012374a4b216deacb3d1e55c536  docs/mirai-api-http/adapter/WebsocketAdapter.md
-4f26a38edc3d89804abaf72dced90a8a4858b555  docs/mirai-api-http/api/API.md
-556ccfd2b56432e1e0627f9e5252375a455ab670  docs/mirai-api-http/api/EventType.md
+5ae9b9f7440891b42e4c8b5553e4ae46c354fcd0  docs/mirai-api-http/api/API.md
+ea9310ad0889f5884d74e8444ec1d9ca3daaca95  docs/mirai-api-http/api/EventType.md
 be17cc8d910403cbcf9e8cf932dff80d428fadbb  docs/mirai-api-http/api/MessageType.md
 5334e73c285af6cee77aae9adedb04df9d7ea078  docs/mirai-api-http/misc/Migration2.md
 b804244d8f05b7b7dbf9448e58a86a06fc83770a  docs/mirai-api-http/README.md
@@ -101,5 +102,5 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/UserManual_images/MCPS-1.png
-2890a2ef91ed4abe8b7cf73ca99410e072ed504b  docs/UserManual.md
+b28ca1099acfafbb71906f014c6be043cd0b8501  docs/UserManual.md
 c47cc80ed9985aae1c20846208cdd938d0d4634a  docs/UsingSnapshots.md
