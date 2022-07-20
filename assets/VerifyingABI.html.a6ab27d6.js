@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5d96238e","path":"/contributing/VerifyingABI.html","title":"\u8FDB\u884C ABI \u9A8C\u8BC1","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"contributing/VerifyingABI.md"}');export{t as data};
