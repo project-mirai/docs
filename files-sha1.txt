@@ -32,10 +32,10 @@ fd9d2667b8616228506e1f13860ba6879d434b01  docs/console/plugin/JVMPlugin.md
 d0dd28209280381712548d3e393cd61b01a105bd  docs/console/Run.md
 fe9badc62e2d389f128ee41f2cfae7fbd10cee8f  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
-0fecfc4d41cfd8bb26152b2cfe8ab41953c45276  docs/contributing/BuildingCore.md
+d9040a6da3c5bb17ca7cad639201292e8bcdb2ff  docs/contributing/BuildingCore.md
 59387f451a3128eab5dcbc0a1484ccef4a815b52  docs/contributing/images/run-gradle-tasks-in-idea.png
 a8978b59b1f84e5a637d0de34484b652669b3e85  docs/contributing/ImplementingProtocol.md
-0423e99014efb91a80306cd1cee1cc83fe72e88a  docs/contributing/README.md
+3f115833cced798e1f02b80b4d6db4f7c034a74e  docs/contributing/README.md
 fe9b774722351617e2fcfb69ee526de571d9a3b0  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 2b06cf6536c6d37afc2cbf77b9c64e6cfc876b3b  docs/DebuggingNetwork.md
