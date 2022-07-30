@@ -43,6 +43,7 @@ async function hook(utils, repoInfo, postCall) {
     await utils.replaceInFiles(repoInfo.copiedDocLocation, 'https://github.com/mamoe/mirai-console/blob/master/docs/', '/console/');
     await utils.replaceInFiles(repoInfo.copiedDocLocation, 'https://github.com/mamoe/mirai/blob/dev/docs/', '/');
     await utils.replaceInFiles(repoInfo.copiedDocLocation, '(/mirai-console/docs', '(/console');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, '../mirai-console/docs/', '/console/');
     await utils.replaceInFiles(repoInfo.copiedDocLocation, '../mirai-console', 'https://github.com/mamoe/mirai/tree/dev/mirai-console');
     await utils.replaceInFiles(repoInfo.copiedDocLocation, '../mirai-core-api/', 'https://github.com/mamoe/mirai/blob/dev/mirai-core-api/');
 }
