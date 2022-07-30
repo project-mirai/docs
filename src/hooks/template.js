@@ -3,7 +3,7 @@
  * @param {import("../types").Doc.RepoInfo} repoInfo
  * @param {Function[]} postCall 
  */
-function hook(utils, repoInfo, postCall) {
+async function hook(utils, repoInfo, postCall) {
 
 }
 

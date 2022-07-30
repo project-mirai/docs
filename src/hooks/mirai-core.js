@@ -36,38 +36,15 @@ function mvres(utils, flatten) {
  * @param {import("../types").Doc.RepoInfo} repoInfo
  * @param {Function[]} postCall
  */
-function hook(utils, repoInfo, postCall) {
+async function hook(utils, repoInfo, postCall) {
     mvres(utils, repoInfo.copiedDocLocation + '/.UserManual_images')
 
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+https://github.com/mamoe/mirai-console/tree/master/+/console/+g" {} \\;'
-    );
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+https://github.com/mamoe/mirai-console/blob/master/docs/+/console/+g" {} \\;'
-    );
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+https://github.com/mamoe/mirai/blob/dev/docs/+/+g" {} \\;'
-    );
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\(/mirai-console/docs+(/console+g" {} \\;'
-    );
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\(/mirai-console+(https://github.com/mamoe/mirai/tree/dev/mirai-console+g" {} \\;'
-    );
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\.\\./mirai-console+https://github.com/mamoe/mirai/tree/dev/mirai-console+g" {} \\;'
-    );
-
-    utils.runInShell(
-        "find " + repoInfo.copiedDocLocation + ' -type f -name "*.md" -exec ' +
-        'sed -i -r "s+\\.\\./mirai-core-api/+https://github.com/mamoe/mirai/blob/dev/mirai-core-api/+g" {} \\;'
-    )
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, 'https://github.com/mamoe/mirai-console/tree/master/', '/console/');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, 'https://github.com/mamoe/mirai-console/blob/master/docs/', '/console/');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, 'https://github.com/mamoe/mirai/blob/dev/docs/', '/');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, '(/mirai-console/docs', '(/console');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, '../mirai-console', 'https://github.com/mamoe/mirai/tree/dev/mirai-console');
+    await utils.replaceInFiles(repoInfo.copiedDocLocation, '../mirai-core-api/', 'https://github.com/mamoe/mirai/blob/dev/mirai-core-api/');
 }
 
 hook.mvres = mvres;

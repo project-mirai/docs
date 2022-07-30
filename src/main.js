@@ -7,6 +7,7 @@
     let child_process = require('child_process');
     let repositories = require('./repositories');
     let https = require('https');
+    let pathModule = require('path');
 
     let fs = require('fs');
     console.log("Config:", config);
@@ -34,6 +35,13 @@
         }
     })();
 
+    async function awaitx(p) {
+        if (p instanceof Promise) {
+            return await p
+        }
+        return p
+    }
+
     /**
      * @type {import('./types.js').Doc.Utils}
      */
@@ -57,6 +65,50 @@
                 systemNoError("rm", file);
             }
         },
+        walkFiles: (() => {
+            async function wf(pt, isDir, fnc) {
+                if (isDir) {
+                    for await (let subpath of await fs.promises.opendir(pt)) {
+                        let entry = pathModule.join(pt, subpath.name);
+                        await wf(entry, subpath.isDirectory(), fnc)
+                    }
+                } else {
+                    await awaitx(fnc(pt))
+                }
+            }
+
+            return async function (dir, fnc) {
+                let wtx = await fs.promises.stat(dir)
+                if (wtx.isFile()) {
+                    await awaitx(fnc(dir))
+                    return
+                }
+                await wf(dir, true, fnc)
+            }
+        })(),
+        replaceInFiles: function (pt, src, placement) {
+            return utils.walkFiles(pt, async (subp) => {
+                let buf = (await fs.promises.readFile(subp)).toString('utf-8')
+                let orgbuf = buf
+                // noinspection JSCheckFunctionSignatures
+                buf = buf.replace(utils.stringToRegex(src), placement)
+                if (buf != orgbuf) {
+                    await fs.promises.writeFile(subp, buf)
+                }
+            })
+        },
+        stringToRegex(str) {
+            if (str instanceof RegExp) {
+                return str
+            }
+            str = String(str)
+            // noinspection RegExpRedundantEscape
+            str = str.replace(/\\/g, '\\\\')
+                .replace(/[\:\(\)\|\-\^\$\+\=\[\]\~\{\}\<\>\%\.]/g, (x) => {
+                    return '\\' + x
+                })
+            return new RegExp(str, 'g')
+        }
     };
 
     function system(cmd) {
@@ -174,13 +226,12 @@
             while (info.copiedDocLocation.endsWith('/')) {
                 info.copiedDocLocation = info.copiedDocLocation.substr(0, info.copiedDocLocation.length - 1)
             }
-            patch(utils, info, postCalls);
+            await awaitx(patch(utils, info, postCalls));
         }
         addNav(repo[3], navs[repo[0]]);
     }
 
 
-    let pathModule = require('path');
     vueConf.alias['@root'] =
         pathModule.dirname(pathModule.dirname(require.main.filename)) + '/docs';
 
@@ -199,14 +250,8 @@
     })();
 
 
-    utils.runInShell(
-        'find docs -type f -name "*.md" -exec ' +
-        'sed -i -r "s+http://img.mamoe.net/2020/02/16/a759783b42f72.png+/mirai.png+g" {} \\;'
-    );
-    utils.runInShell(
-        'find docs -type f -name "*.md" -exec ' +
-        'sed -i -r "s+http://img.mamoe.net/2020/02/16/c4aece361224d.png+/mirai.svg+g" {} \\;'
-    );
+    await utils.replaceInFiles('docs', 'http://img.mamoe.net/2020/02/16/a759783b42f72.png', '/mirai.png');
+    await utils.replaceInFiles('docs', 'http://img.mamoe.net/2020/02/16/c4aece361224d.png', '/mirai.png');
     await fs.promises.mkdir('docs/.vuepress/public', {recursive: true});
     utils.cp('docs/mirai.png', 'docs/.vuepress/public/mirai.png');
     utils.cp('docs/mirai.svg', 'docs/.vuepress/public/mirai.svg');
@@ -216,33 +261,16 @@
     END DROP $1 -->
      */
     await (async function () {
-        let modulePath = require("path");
         let matchRegex = /<!--[\-\s]*BEGIN DROP\s+(.+?)[\W\w]+END DROP \1[\-\s]*-->/g;
         // noinspection RegExpRedundantEscape
         let imageMatchRegex = /(!\[.*\])\((.+?)\)/g;
-
-        async function walkFile(isDir, path) {
-            if (isDir) {
-                for await (let subpath of await fs.promises.opendir(path)) {
-                    let entry = modulePath.join(path, subpath.name);
-                    await walkFile(subpath.isDirectory(), entry)
-                }
-            } else {
-                let txt = (await fs.promises.readFile(path)).toString('utf-8');
-                let repl = txt.replace(matchRegex, '');
-                repl = repl.replace(imageMatchRegex, (range, group1, group2) => {
-                    if (group2.indexOf(':') != -1) return range;
-                    if (group2[0] == '.') return range;
-                    if (group2[0] == '/') return range;
-                    return group1 + '(./' + group2 + ')';
-                });
-                if (repl != txt) {
-                    await fs.promises.writeFile(path, repl);
-                }
-            }
-        }
-
-        await walkFile(true, 'docs')
+        await utils.replaceInFiles('docs', matchRegex, '');
+        await utils.replaceInFiles('docs', imageMatchRegex, (range, group1, group2) => {
+            if (group2.indexOf(':') != -1) return range;
+            if (group2[0] == '.') return range;
+            if (group2[0] == '/') return range;
+            return group1 + '(./' + group2 + ')';
+        });
     })();
 
     function sha1(content) {
