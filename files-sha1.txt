@@ -55,11 +55,11 @@ ffc94a33dc2dd86e38af7f7e503c8f709e6cfd6f  docs/MigrationFrom1x.md
 b05daffb016e9c0ecb7cd0337e34f422a5aa187a  docs/mirai-api-http/.conf/nav.js
 df8d48ddee43927441781306225d1ed0c1ff69c9  docs/mirai-api-http/adapter/Adapter.md
 55ed3d7042dcbf3b77c378492037039b2e76201f  docs/mirai-api-http/adapter/CustomizedAdapter.md
-4c8e458f44e8113edb9cf54b8427d4fad220443a  docs/mirai-api-http/adapter/HttpAdapter.md
-e8222300131a42b626860aed697bd05a104fa147  docs/mirai-api-http/adapter/ReverseWebsocketAdapter.md
+63c6fc7f5f47c1145a2860ab2a96580172216118  docs/mirai-api-http/adapter/HttpAdapter.md
+a5288ef3c220efbec7a280dab62583552aee70f4  docs/mirai-api-http/adapter/ReverseWebsocketAdapter.md
 9102ec88b6544ea783e3306d5dfeeb65d413176e  docs/mirai-api-http/adapter/WebhookAdapter.md
-ca9b4e1ca4d5b012374a4b216deacb3d1e55c536  docs/mirai-api-http/adapter/WebsocketAdapter.md
-5ae9b9f7440891b42e4c8b5553e4ae46c354fcd0  docs/mirai-api-http/api/API.md
+22eb0a013054f38bbd89f1e34ec894ef8d17988d  docs/mirai-api-http/adapter/WebsocketAdapter.md
+160582518923cc7ca5327e02e5094fda1bcaaa2e  docs/mirai-api-http/api/API.md
 8e46ddd6ba442811810019e171b36b12c33ba7f1  docs/mirai-api-http/api/EventType.md
 be17cc8d910403cbcf9e8cf932dff80d428fadbb  docs/mirai-api-http/api/MessageType.md
 5334e73c285af6cee77aae9adedb04df9d7ea078  docs/mirai-api-http/misc/Migration2.md
