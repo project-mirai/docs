@@ -34,13 +34,14 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 4ce8ff77c00c5509cfe24c63afd270dbf103e1a0  docs/console/Run.md
 9a0679f28e2250830c3fff6f1fb0b7dfc4cf9fbf  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
+ab67089bd3aa18a4d0eeaa62b6f2928c9b98d20d  docs/contributing/Building.md
 d9040a6da3c5bb17ca7cad639201292e8bcdb2ff  docs/contributing/BuildingCore.md
 59387f451a3128eab5dcbc0a1484ccef4a815b52  docs/contributing/images/run-gradle-tasks-in-idea.png
 a42b75bd10503581348444d6334d295425add685  docs/contributing/ImplementingProtocol.md
-fcc23139a3ad43dd0e5326fc35cb74299a00ab9d  docs/contributing/README.md
+d5e0382ca460c7c60684b0805c55995aa98f6069  docs/contributing/README.md
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
-2b06cf6536c6d37afc2cbf77b9c64e6cfc876b3b  docs/DebuggingNetwork.md
+d41d0adab85bf7d33670e35002ac215ed615ac51  docs/DebuggingNetwork.md
 f50cee4ea4c5f669d82c5bb570c4004c139e5b9d  docs/EventList.md
 4bb6a818bf676c63788f5a66897da5be55b5ffca  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
