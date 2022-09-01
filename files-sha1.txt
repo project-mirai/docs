@@ -60,7 +60,7 @@ f364110b106de75ff4d7983b6969d13baff4eb8b  docs/mirai-api-http/adapter/HttpAdapte
 395f3cb2416b50aa872f449034510af0b6692ed2  docs/mirai-api-http/adapter/ReverseWebsocketAdapter.md
 9102ec88b6544ea783e3306d5dfeeb65d413176e  docs/mirai-api-http/adapter/WebhookAdapter.md
 a48f3686566dca2937b3d301c6fcf34142ca295b  docs/mirai-api-http/adapter/WebsocketAdapter.md
-5e73dc84f2a1c16bb69815b4c9fbd7ddfc522ec6  docs/mirai-api-http/api/API.md
+093c72709aaf144ec0f5f7debf861d02a5f887f2  docs/mirai-api-http/api/API.md
 8e46ddd6ba442811810019e171b36b12c33ba7f1  docs/mirai-api-http/api/EventType.md
 be17cc8d910403cbcf9e8cf932dff80d428fadbb  docs/mirai-api-http/api/MessageType.md
 5334e73c285af6cee77aae9adedb04df9d7ea078  docs/mirai-api-http/misc/Migration2.md
