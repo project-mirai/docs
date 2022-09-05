@@ -48,7 +48,7 @@ f50cee4ea4c5f669d82c5bb570c4004c139e5b9d  docs/EventList.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
 2261002b3a21fee1b41b6b7f06c14b2e6bdf66f7  docs/KotlinAndJava.md
 993d658058fac8b9ef31368b249cdf5fec9fb020  docs/mcl/.conf/nav.js
-c4c78313b725acaeb2fbdf6785b2352752251983  docs/mcl/Module.md
+3cd6f4082536bd1a87ef7a0ab12c4d963c8217c5  docs/mcl/Module.md
 acbd8993a1fa29e7431772c3a6b8e3375cbf3db5  docs/mcl/Plugin.md
 d66a64375d8ba7b2612815815e7ab513013122f3  docs/mcl/README.md
 dfe2931fc145b663a8183dc8f9e71030c5890fa0  docs/Messages.md
