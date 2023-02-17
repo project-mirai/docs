@@ -9,7 +9,7 @@ b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 03c530c0d42b91ba15cba49e9bc2b6b8146cba88  docs/console/.conf/nav.js
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
 4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
-bc44d2cc9f181b14947d5b672138d1dfd58c80f8  docs/console/Commands.md
+aad25008e7f6b3e0eb8f6a0d62ad515e7c398fb8  docs/console/Commands.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
 d34820eeb1a2ef531b171dac831954ec59dbb725  docs/console/ConfiguringProjects.md
