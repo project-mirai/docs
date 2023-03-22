@@ -8,7 +8,7 @@ b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 926026a3de7934bd87535586e0cee4c6114d276e  docs/ConfiguringProjects.md
 03c530c0d42b91ba15cba49e9bc2b6b8146cba88  docs/console/.conf/nav.js
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
-4d90d9daea4190c11e04a3d842962589eda5a2f6  docs/console/BuiltInCommands.md
+f7f2da1699689a866cab25e38829fc81ae872158  docs/console/BuiltInCommands.md
 aad25008e7f6b3e0eb8f6a0d62ad515e7c398fb8  docs/console/Commands.md
 194a0919dd9bebd36efc570cefce169ab628aff8  docs/console/ConfiguringProjects_images/6d010b1a.png
 9b262b8ddb73fcfcb9536e93abf16657bd889767  docs/console/ConfiguringProjects_images/a6a3b24b.png
@@ -115,5 +115,5 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/UserManual_images/MCPS-1.png
-b28ca1099acfafbb71906f014c6be043cd0b8501  docs/UserManual.md
+e41fb8fd1641bca210a44b8b0e96b88c1129013e  docs/UserManual.md
 b2356fbd5b8a72ae488c6d779e12b24f8777a51a  docs/UsingSnapshots.md
