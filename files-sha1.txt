@@ -86,7 +86,7 @@ b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 526db29f7a138b8e5c5bee8eed9f01c384914caf  docs/mocking/Mocking.md
 424fe59b9e1e4eb24749c03387f4c2faa1afa6b0  docs/Preparations.md
-e69ddc76e012dcd0d49cdc43836959da14e4b341  docs/README.md
+c71c12e5aa9e5ea43337041b4267c55d35057978  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
 2a4685f1b47f04b2d1b5c3f55e0538f2da08a559  docs/tools/intellij-plugin/resources/fileTemplates/code/.gitignore.ft
