@@ -93,6 +93,8 @@ d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 7e663b1f0ee7ee06767337fe19234447e7219cd2  docs/tools/intellij-plugin/resources/fileTemplates/code/.gitignore.html
 aaa8be71cf58fb10aaef73e489a55d988a9e2682  docs/tools/intellij-plugin/resources/fileTemplates/code/account.properties.ft
 a94544cff90653ee89db7e5865a2e00de4cde1fd  docs/tools/intellij-plugin/resources/fileTemplates/code/account.properties.html
+f0130bbfb3233ec30bc3004a62c63f37e6ebd865  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle-wrapper.properties.ft
+980d0c05168d10785b7a8c51d6c3e774417d4a30  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle-wrapper.properties.html
 0d6944c55c938be560ebba08dcc5dd9d7b0f564d  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.ft
 a94544cff90653ee89db7e5865a2e00de4cde1fd  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.html
 75be5da6fe422163e5bac25f183efdedf5216b7f  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.ft
