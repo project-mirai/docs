@@ -97,9 +97,9 @@ f0130bbfb3233ec30bc3004a62c63f37e6ebd865  docs/tools/intellij-plugin/resources/f
 980d0c05168d10785b7a8c51d6c3e774417d4a30  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle-wrapper.properties.html
 0d6944c55c938be560ebba08dcc5dd9d7b0f564d  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.ft
 a94544cff90653ee89db7e5865a2e00de4cde1fd  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.html
-75be5da6fe422163e5bac25f183efdedf5216b7f  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.ft
+494c9ba2d2810c4bdcefb78d58880d90ac8419ad  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.ft
 a64a0cf1692a1a239d16237c6e6ff95ac6a75ed4  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.html
-d9bc50374f637b9a7ccb706a02343c1ec2136478  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.ft
+6a23bb1b05716d0963beeef87b0b0ec8b07aedfd  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.ft
 a8731f885fac3cd913f8e371154c94ba34ca94c9  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.html
 1cb7fdbe5b7db43f2b2113df61857c8883754332  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main class Java.java.ft
 5db53e213e87e921dae2af05e27ddce8c713826e  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main class Java.java.ft.back
