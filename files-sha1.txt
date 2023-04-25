@@ -97,9 +97,9 @@ f0130bbfb3233ec30bc3004a62c63f37e6ebd865  docs/tools/intellij-plugin/resources/f
 980d0c05168d10785b7a8c51d6c3e774417d4a30  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle-wrapper.properties.html
 0d6944c55c938be560ebba08dcc5dd9d7b0f564d  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.ft
 a94544cff90653ee89db7e5865a2e00de4cde1fd  docs/tools/intellij-plugin/resources/fileTemplates/code/Gradle gradle.properties.html
-494c9ba2d2810c4bdcefb78d58880d90ac8419ad  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.ft
+596c72cec0151efbd7279d7092ca5e89dfe82f51  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.ft
 a64a0cf1692a1a239d16237c6e6ff95ac6a75ed4  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.html
-6a23bb1b05716d0963beeef87b0b0ec8b07aedfd  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.ft
+68b0250f0e303d000080b4065501477fc887bfa4  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.ft
 a8731f885fac3cd913f8e371154c94ba34ca94c9  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin build.gradle.kts.html
 1cb7fdbe5b7db43f2b2113df61857c8883754332  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main class Java.java.ft
 5db53e213e87e921dae2af05e27ddce8c713826e  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main class Java.java.ft.back
@@ -108,7 +108,9 @@ b02ef8d2ea7e080aa825ece8447ed29621479c05  docs/tools/intellij-plugin/resources/f
 cef155b4a1f6ea9ecc05b293b6f14414001af870  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main class Kotlin.kt.html
 dbaa4f3bce92041930bad98a6a43ccdb20db4a04  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main service.txt.ft
 cef155b4a1f6ea9ecc05b293b6f14414001af870  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin main service.txt.html
-bafad52421215b8e8cac05027957f66a64aeba8d  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.kts.ft
+d889f2adf3038d1bd0dc6ee2d278644357384395  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.ft
+804c336538c6b889e737d714caa3210127e0d89a  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.html
+6d91546ff6329dbfbd08f556f731162b3c8420c1  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.kts.ft
 8656b5fc323b7ba977059d5578125113b1471451  docs/tools/intellij-plugin/resources/fileTemplates/code/Plugin settings.gradle.kts.html
 4b7b0a0792718c318b814300cd4e950b013b3fc9  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.run.xml.ft
 8656b5fc323b7ba977059d5578125113b1471451  docs/tools/intellij-plugin/resources/fileTemplates/code/RunTerminal.run.xml.html
