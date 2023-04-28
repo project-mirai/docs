@@ -393,7 +393,16 @@
         } catch (ignore) {
         }
         gsys('git', 'checkout', '--force', 'origin/gh-pages');
-        gsys('rm', '-rfv', '*');
+
+        await (async () => {
+            let dirs = await fs.promises.readdir('gh-pages-repo');
+            for (let fname of dirs) {
+                if (!fname.startsWith('.')) {
+                    gsys('rm', '-rf', fname);
+                }
+            }
+        })();
+
         gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
         gsys('git', 'checkout', 'HEAD', '--', 'favicon.ico');
         gsysHidden('git', 'rm', '--cache', '-r', '.');
