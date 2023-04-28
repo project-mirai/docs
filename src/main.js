@@ -393,7 +393,7 @@
         } catch (ignore) {
         }
         gsys('git', 'checkout', '--force', 'origin/gh-pages');
-        gsys('rm', '-rf', '*');
+        gsys('rm', '-rfv', '*');
         gsys('git', 'checkout', 'HEAD', '--', 'CNAME');
         gsys('git', 'checkout', 'HEAD', '--', 'favicon.ico');
         gsysHidden('git', 'rm', '--cache', '-r', '.');
