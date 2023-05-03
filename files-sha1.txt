@@ -35,12 +35,14 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 4ce8ff77c00c5509cfe24c63afd270dbf103e1a0  docs/console/Run.md
 9a7a999f528bc7138c007f27581e93b25e5049f3  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
-ab67089bd3aa18a4d0eeaa62b6f2928c9b98d20d  docs/contributing/Building.md
-d0bea5374f583c095f8415d5d49ed31ffdcd0b44  docs/contributing/BuildingCore.md
-59387f451a3128eab5dcbc0a1484ccef4a815b52  docs/contributing/images/run-gradle-tasks-in-idea.png
+c87c14409cbfc5556b0ec9bdd92284a0baf4724f  docs/contributing/building/BuildingCoreAndroid.md
+87d560a877e098a82985f50a4bf15b304c9111f9  docs/contributing/building/BuildingCoreNative.md
+59387f451a3128eab5dcbc0a1484ccef4a815b52  docs/contributing/building/images/run-gradle-tasks-in-idea.png
+6442141bc7f617805c20478198a3f786f90ba964  docs/contributing/building/README.md
 a42b75bd10503581348444d6334d295425add685  docs/contributing/ImplementingProtocol.md
 2b6ac8afc6ee42de75bb7ac90ae31d8ec1621ef2  docs/contributing/mock/SpaceAllocation.md
-4860744d0b55c766a02ac04a795aeb80d716e116  docs/contributing/README.md
+9dc5fcf17ebfd96a262095efea7c974f345a492b  docs/contributing/README.md
+fb911474dcf21b27d45174aafd91a8d081afaab4  docs/contributing/SimpleInstructions.md
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 d41d0adab85bf7d33670e35002ac215ed615ac51  docs/DebuggingNetwork.md
@@ -85,7 +87,7 @@ b829737537e24041060f765b972a6bbefef450be  docs/mirai-login-solver-selenium/image
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 526db29f7a138b8e5c5bee8eed9f01c384914caf  docs/mocking/Mocking.md
-424fe59b9e1e4eb24749c03387f4c2faa1afa6b0  docs/Preparations.md
+c854fb11788ac48f0feb547173487d81ad03f106  docs/Preparations.md
 c71c12e5aa9e5ea43337041b4267c55d35057978  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
