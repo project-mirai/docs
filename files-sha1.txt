@@ -41,7 +41,7 @@ c87c14409cbfc5556b0ec9bdd92284a0baf4724f  docs/contributing/building/BuildingCor
 6442141bc7f617805c20478198a3f786f90ba964  docs/contributing/building/README.md
 a42b75bd10503581348444d6334d295425add685  docs/contributing/ImplementingProtocol.md
 2b6ac8afc6ee42de75bb7ac90ae31d8ec1621ef2  docs/contributing/mock/SpaceAllocation.md
-9dc5fcf17ebfd96a262095efea7c974f345a492b  docs/contributing/README.md
+95b5f89344469824e24a0903b4a384e2be70f3ca  docs/contributing/README.md
 fb911474dcf21b27d45174aafd91a8d081afaab4  docs/contributing/SimpleInstructions.md
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
