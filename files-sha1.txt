@@ -1,8 +1,8 @@
-30733643cbaf2dfca494166e4fd59e247daf4057  docs/.conf/nav.js
+0292508e815edf628474345992710da9c918e9e4  docs/.conf/nav.js
 187d3a31375ddecbe4dd08f94474c240c12f9cf5  docs/.mirai_images/d548dae5.png
 e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
-8b78afea3c0e0241541f63d7cf88ab3e9000df6a  docs/.vuepress/config.js
-06206942457f724d12c7e45f457b08c11615c319  docs/Bots.md
+49cd739fa2a2be963aef9cce7e0906e8b1b5f220  docs/.vuepress/config.js
+36e70b966b9c686482eccac1804d0f90185d04db  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
 712d3bc89db2e09b37919cb9920da4221dd92a22  docs/ConfiguringMultiplatformProjects.md
 926026a3de7934bd87535586e0cee4c6114d276e  docs/ConfiguringProjects.md
@@ -33,7 +33,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
 88ccb6aa90efa2a3cebc7a8dac24eb42afabc252  docs/console/README.md
 4ce8ff77c00c5509cfe24c63afd270dbf103e1a0  docs/console/Run.md
-9a7a999f528bc7138c007f27581e93b25e5049f3  docs/ConsoleTerminal.md
+6094f1d433d5957fa363aec5e62bacb48c8a47f5  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
 c87c14409cbfc5556b0ec9bdd92284a0baf4724f  docs/contributing/building/BuildingCoreAndroid.md
 87d560a877e098a82985f50a4bf15b304c9111f9  docs/contributing/building/BuildingCoreNative.md
@@ -46,7 +46,7 @@ fb911474dcf21b27d45174aafd91a8d081afaab4  docs/contributing/SimpleInstructions.m
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 d41d0adab85bf7d33670e35002ac215ed615ac51  docs/DebuggingNetwork.md
-53dd4647a4f44e2896e21d6b6f6d733f18301ea7  docs/EventList.md
+8367d84b21783daba4ec53cb72739a2e57b2cad2  docs/EventList.md
 4bb6a818bf676c63788f5a66897da5be55b5ffca  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
 9fc4caa1dc8246a3eee8be9888b67b4054573c9f  docs/files/install-20210412.cmd
@@ -87,7 +87,8 @@ b829737537e24041060f765b972a6bbefef450be  docs/mirai-login-solver-selenium/image
 b53a18d93bcbe145eacf3dd564edd9bd88636d9e  docs/mirai.png
 73c9bd749f234b78cc8f7cd26c19cbfa716bf431  docs/mirai.svg
 526db29f7a138b8e5c5bee8eed9f01c384914caf  docs/mocking/Mocking.md
-c854fb11788ac48f0feb547173487d81ad03f106  docs/Preparations.md
+32c67cbb36f67362f39bc81d84f3257e6c7be131  docs/Preparations.md
+932debdc39d46952787e1a9c6a395663ee6eddca  docs/Questions.md
 c71c12e5aa9e5ea43337041b4267c55d35057978  docs/README.md
 d056b53cbc31cb89bf65f241aea35f878dcc4ced  docs/src/Contacts.mermaid.md
 4fc2fd29a106aa1ccd770e6fa6af7ea4255c88c9  docs/src/Messages.mermaid.md
@@ -121,5 +122,5 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 9381bd348f8aae271a259a422ec87fbb17d06195  docs/tools/intellij-plugin/resources/icons/pluginMainDeclaration.png
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/UserManual_images/MCPS-1.png
-e41fb8fd1641bca210a44b8b0e96b88c1129013e  docs/UserManual.md
+204df5140da1100d5b49abd6ddee2195b2160f08  docs/UserManual.md
 b2356fbd5b8a72ae488c6d779e12b24f8777a51a  docs/UsingSnapshots.md
