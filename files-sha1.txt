@@ -18,6 +18,7 @@ d34820eeb1a2ef531b171dac831954ec59dbb725  docs/console/ConfiguringProjects.md
 d7d7c84c8fdd4ac360f8463383593551c031693c  docs/console/FrontEnd.md
 1a83533320513d14ff977dea862a2ca475efc8b3  docs/console/Logging.md
 2c6da29d12796d5009f2007af5e246fcc312fd15  docs/console/Permissions.md
+ded96ed4a3d9d058d3b6682bac94436a94f72913  docs/console/plugin/images/CreateResourcesDir.png
 7ccc0ee00e4a82752e9aa331c565d100939e8fff  docs/console/plugin/images/PluginDebugGradleTask.png
 c3e25abdb2f0accc0ae67e818d0d8dce51e96539  docs/console/plugin/images/PluginDebugRunConfiguration.png
 7e8dab616446080b0eedd4494d2e991807a056a4  docs/console/plugin/images/PluginDebugWindowPreview.webp
@@ -27,7 +28,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 516c38f849eebee2eff0d56bf52093ccc2a01945  docs/console/plugin/JVMPlugin-Appendix.md
 367eea4fe1ec781b8ccbf49d87cebc6f6dbc5e81  docs/console/plugin/JVMPlugin-DataExchange.md
 29a8d02b2f8ad42fc92e4af91f68a25f051b2dea  docs/console/plugin/JVMPlugin-Debug.md
-26994df033b0f9ba8cf9a1cdc177f247241468c2  docs/console/plugin/JVMPlugin.md
+0ec37a60abb5631cb1616927d76987331c3098be  docs/console/plugin/JVMPlugin.md
 4bd08b7a2c70acb28337c404696dd196515dfc02  docs/console/plugin/Plugins.md
 737a98195d05a03fc96177dc275fa0ae7f173102  docs/console/PluginData.md
 9259cd32fe84312d34dfc7f42a93fd7a57181b91  docs/console/QA.md
