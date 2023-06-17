@@ -4,7 +4,7 @@ e3804f8a26a9a600ef0612aab82966fc1dfcda7d  docs/.mirai_images/e02dc13d.png
 49cd739fa2a2be963aef9cce7e0906e8b1b5f220  docs/.vuepress/config.js
 36e70b966b9c686482eccac1804d0f90185d04db  docs/Bots.md
 b88481d1c46ab2234d507acc707572fa33dac867  docs/ConciseAPI.md
-712d3bc89db2e09b37919cb9920da4221dd92a22  docs/ConfiguringMultiplatformProjects.md
+d991ccd98caaf074f6b259827a8da2b437333c57  docs/ConfiguringMultiplatformProjects.md
 926026a3de7934bd87535586e0cee4c6114d276e  docs/ConfiguringProjects.md
 03c530c0d42b91ba15cba49e9bc2b6b8146cba88  docs/console/.conf/nav.js
 87bb9e8ad38c77f0c97f48b249646af56233c62d  docs/console/Appendix.md
@@ -37,13 +37,12 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 6094f1d433d5957fa363aec5e62bacb48c8a47f5  docs/ConsoleTerminal.md
 e09bc0faecd4a3c61e6984a046c541da4fbd4517  docs/Contacts.md
 c87c14409cbfc5556b0ec9bdd92284a0baf4724f  docs/contributing/building/BuildingCoreAndroid.md
-87d560a877e098a82985f50a4bf15b304c9111f9  docs/contributing/building/BuildingCoreNative.md
 59387f451a3128eab5dcbc0a1484ccef4a815b52  docs/contributing/building/images/run-gradle-tasks-in-idea.png
-6442141bc7f617805c20478198a3f786f90ba964  docs/contributing/building/README.md
+26664116b44a52343ccf9570bbad7bc2fc8be65b  docs/contributing/building/README.md
 a42b75bd10503581348444d6334d295425add685  docs/contributing/ImplementingProtocol.md
 2b6ac8afc6ee42de75bb7ac90ae31d8ec1621ef2  docs/contributing/mock/SpaceAllocation.md
-95b5f89344469824e24a0903b4a384e2be70f3ca  docs/contributing/README.md
-fb911474dcf21b27d45174aafd91a8d081afaab4  docs/contributing/SimpleInstructions.md
+059dcb364e392b45ebf945cd04860f22399e88b5  docs/contributing/README.md
+aaec4ca275484456cb61c735d8ffb46480dfbd42  docs/contributing/SimpleInstructions.md
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
 d41d0adab85bf7d33670e35002ac215ed615ac51  docs/DebuggingNetwork.md
