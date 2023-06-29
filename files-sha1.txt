@@ -45,7 +45,7 @@ a42b75bd10503581348444d6334d295425add685  docs/contributing/ImplementingProtocol
 aaec4ca275484456cb61c735d8ffb46480dfbd42  docs/contributing/SimpleInstructions.md
 b353f3e400cdbaaa101c22d3727e3853aa6fbb10  docs/contributing/VerifyingABI.md
 7c12c089738e74c142290a71bc287555a29008de  docs/CoreAPI.md
-d41d0adab85bf7d33670e35002ac215ed615ac51  docs/DebuggingNetwork.md
+2d019b5a0a13fe8af103256783223db69a7583a7  docs/DebuggingNetwork.md
 818759d2d4138e5b79439e315c6680135f27c609  docs/EventList.md
 4bb6a818bf676c63788f5a66897da5be55b5ffca  docs/Events.md
 6e59e66c2f476b3361d1671a86fe81ac2675b703  docs/Evolution.md
