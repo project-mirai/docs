@@ -123,4 +123,4 @@ b7ccff2a9a0e9dddc99a898975c0e4d85889cb79  docs/tools/intellij-plugin/resources/i
 17f8ed4fb6b505441910eab84dd36387f8331ee4  docs/UserManual_images/MCLI-1.png
 860a96f011f68be657df97be4fef26344ee57b3b  docs/UserManual_images/MCPS-1.png
 204df5140da1100d5b49abd6ddee2195b2160f08  docs/UserManual.md
-b2356fbd5b8a72ae488c6d779e12b24f8777a51a  docs/UsingSnapshots.md
+1cddb294467072c487ac3accffcda82e07ad155d  docs/UsingSnapshots.md
