@@ -27,7 +27,7 @@ a48804ef69844871c0b848802de72d7c76b993ff  docs/console/plugin/images/PluginMainD
 55ff7d8ae3d206c580aae3409fc3ecc20f4d268c  docs/console/plugin/JVMPlugin_images/75227ef5.png
 516c38f849eebee2eff0d56bf52093ccc2a01945  docs/console/plugin/JVMPlugin-Appendix.md
 367eea4fe1ec781b8ccbf49d87cebc6f6dbc5e81  docs/console/plugin/JVMPlugin-DataExchange.md
-29a8d02b2f8ad42fc92e4af91f68a25f051b2dea  docs/console/plugin/JVMPlugin-Debug.md
+18232b2019058467c806259afe219bc70b94ae6b  docs/console/plugin/JVMPlugin-Debug.md
 0ec37a60abb5631cb1616927d76987331c3098be  docs/console/plugin/JVMPlugin.md
 4bd08b7a2c70acb28337c404696dd196515dfc02  docs/console/plugin/Plugins.md
 737a98195d05a03fc96177dc275fa0ae7f173102  docs/console/PluginData.md
